@@ -1,803 +1,2594 @@
 [
   {
-    "pregunta": "¿Qué es un \"addon\" en Odoo?",
-    "respuesta": "Una extensión que agrega funcionalidades adicionales a Odoo.",
+    "pregunta": "¿Qué herramienta gráfica se recomienda como oficial para acceder a PostgreSQL?",
+    "respuesta": "pgAdmin 4",
     "opciones": [
-      "Una extensión que agrega funcionalidades adicionales a Odoo.",
-      "Un tema de diseño para el frontend.",
-      "Un archivo de configuración del sistema."
+      "psql",
+      "pgAdmin 4",
+      "DataGrip"
     ]
   },
   {
-    "pregunta": "En informes de tipo filtrado de Odoo, para poder realizar agrupaciones por parámetros deberemos…:",
-    "respuesta": "Usar el desplegable Agrupar por",
+    "pregunta": "¿Cuál es la función de las “agrupaciones” en las consultas del módulo de ventas?",
+    "respuesta": "Emplear filtros rápidos para organizar y visualizar la información de forma estructurada.",
     "opciones": [
-      "Usar el desplegable Agrupar por",
-      "Usar el desplegable Fecha",
-      "Usar el desplegable Filtros"
+      "Cambiar el precio de todos los productos a la vez.",
+      "Emplear filtros rápidos para organizar y visualizar la información de forma estructurada.",
+      "Bloquear el acceso a los pedidos de años anteriores."
     ]
   },
   {
-    "pregunta": "La información de los modelos de Odoo se almacenan mediante…:",
-    "respuesta": "campos.",
+    "pregunta": "¿Qué ventaja ofrecen herramientas de BI como PowerBI o QlikView frente a los informes básicos del ERP?",
+    "respuesta": "Permiten realizar análisis de datos y cuadros de mando mucho más potentes y en tiempo real.",
     "opciones": [
-      "filas.",
-      "entidades.",
-      "campos."
+      "Permiten realizar análisis de datos y cuadros de mando mucho más potentes y en tiempo real.",
+      "Son gratuitas y no requieren configuración.",
+      "Sustituyen por completo la necesidad de tener un ERP."
     ]
   },
   {
-    "pregunta": "¿Qué es el \"data governance\" (gobernanza de datos.?",
-    "respuesta": "La gestión de la disponibilidad, integridad y seguridad de los datos.",
+    "pregunta": "¿Qué se recomienda evitar al editar vistas XML para no perder las funcionalidades estándar?",
+    "respuesta": "Modificar directamente las vistas estándar, utilizando en su lugar vistas heredadas.",
     "opciones": [
-      "El proceso de normalización de datos.",
-      "La gestión de la disponibilidad, integridad y seguridad de los datos.",
-      "Un tipo de índice."
+      "Usar el modo desarrollador.",
+      "Modificar directamente las vistas estándar, utilizando en su lugar vistas heredadas.",
+      "Añadir etiquetas de tipo <field>."
     ]
   },
   {
-    "pregunta": "La consulta SELECT * FROM res_partner dentro de la base de datos de Odoo, ¿Que nos devuelve?:",
-    "respuesta": "El listado de clientes.",
+    "pregunta": "¿Cuál es el primer paso indispensable para realizar un informe personalizado mediante una herramienta externa?",
+    "respuesta": "Conocer la base de datos y la información exacta que se desea exportar.",
     "opciones": [
-      "El listado de socios.",
-      "El listado de clientes.",
-      "El listado de usuarios."
+      "Conocer la base de datos y la información exacta que se desea exportar.",
+      "Comprar una licencia de Business Intelligence.",
+      "Imprimir todos los formularios de la empresa."
     ]
   },
   {
-    "pregunta": "¿Qué es una auditoría en el contexto de ERP-CRM?",
-    "respuesta": "Un proceso para verificar la integridad y exactitud de los datos.",
+    "pregunta": "En un checklist de pruebas, ¿qué acción valida la restricción de acceso a módulos sensibles?",
+    "respuesta": "Revisar que los permisos de usuario restringen el acceso a módulos como contabilidad.",
     "opciones": [
-      "Un proceso para instalar hardware adicional",
-      "Un proceso para crear gráficos y tablas.",
-      "Un proceso para verificar la integridad y exactitud de los datos."
+      "Crear un pedido de venta.",
+      "Probar el acceso desde un móvil personal sin contraseña.",
+      "Revisar que los permisos de usuario restringen el acceso a módulos como contabilidad."
     ]
   },
   {
-    "pregunta": "Odoo usa hibernate para gestionar la persistencia de los modelos de datos en la base de datos:",
-    "respuesta": "La afirmación es incorrecta.",
+    "pregunta": "¿Cuál es el fin de las “pruebas de usabilidad” durante la implantación?",
+    "respuesta": "Analizar si la interfaz es intuitiva y sencilla para los usuarios finales, reduciendo errores humanos.",
     "opciones": [
-      "La afirmación es incorrecta.",
-      "La afirmación es correcta.",
-      "Depende de la instalación que hagamos."
+      "Verificar que el programa sea compatible con impresoras antiguas.",
+      "Analizar si la interfaz es intuitiva y sencilla para los usuarios finales, reduciendo errores humanos.",
+      "Medir cuántos datos caben en el servidor."
     ]
   },
   {
-    "pregunta": "¿Qué dos tipos de logs hay en una instalación de Odoo?:",
-    "respuesta": "del servidor de aplicaciones y la base de datos.",
+    "pregunta": "En el contexto de Odoo 18, ¿qué ventaja ofrece el uso de Odoo Studio para las adaptaciones funcionales?",
+    "respuesta": "Permite realizar cambios sin necesidad de programar (low-code) y crea vistas heredadas seguras.",
     "opciones": [
-      "del compilador python y la base de datos.",
-      "del servidor de aplicaciones y la base de datos.",
-      "de la base de datos y el servidor apache."
+      "Permite realizar cambios sin necesidad de programar (low-code) y crea vistas heredadas seguras.",
+      "Hace que el sistema sea inmune a cualquier virus informático.",
+      "Elimina la necesidad de tener una base de datos PostgreSQL."
     ]
   },
   {
-    "pregunta": "¿Qué es una migración de datos en la implantación de un ERP?",
-    "respuesta": "El proceso de transferir datos de un sistema antiguo a uno nuevo.",
+    "pregunta": "¿Cómo se llaman las pruebas que verifican la comunicación correcta entre diferentes módulos (ej. ventas y almacén)?",
+    "respuesta": "Pruebas de integración.",
     "opciones": [
-      "El proceso de cambiar el diseño de una página web.",
-      "El proceso de crear contenido multimedia.",
-      "El proceso de transferir datos de un sistema antiguo a uno nuevo."
+      "Pruebas funcionales.",
+      "Pruebas de usabilidad.",
+      "Pruebas de integración."
     ]
   },
   {
-    "pregunta": "¿Qué es la personalización en un sistema ERP-CRM?",
-    "respuesta": "Ajustar el software para que se adapte a las necesidades específicas de la empresa.",
+    "pregunta": "¿Por qué se considera inusual que un ERP-CRM actual no permita configuraciones?",
+    "respuesta": "Porque todas las empresas tienen pequeños detalles específicos que deben recogerse como datos.",
     "opciones": [
-      "Cambiar los colores de la interfaz del software.",
-      "Ajustar el software para que se adapte a las necesidades específicas de la empresa.",
-      "Instalar el software en dispositivos móviles."
+      "Porque todas las empresas tienen pequeños detalles específicos que deben recogerse como datos.",
+      "Porque los desarrolladores ya no quieren crear programas cerrados.",
+      "Porque la ley obliga a que todos los programas sean idénticos."
     ]
   },
   {
-    "pregunta": "¿Qué es un cuadro de mando?:",
-    "respuesta": "Un tipo de informe que suele combinar diferentes tipos de elementos para conseguir el",
+    "pregunta": "Para acceder a la modificación de un modelo (tabla) a través de un formulario, ¿qué icono debe activarse previamente?",
+    "respuesta": "El icono de “debug” o modo desarrollador.",
     "opciones": [
-      "Un tipo de informe que suele combinar diferentes tipos de elementos para conseguir el objetivo de poder tener indicadores y parámetros de medición para tomar decisiones",
-      "Un tipo de informe para gestionar la información empresarial relacionada entre si.",
-      "Un tipo de página web con el historico del indicador más importante para tomar decisiones."
+      "El icono de “debug” o modo desarrollador.",
+      "El icono de ayuda al usuario.",
+      "El icono de impresión de informes."
     ]
   },
   {
-    "pregunta": "¿Para qué sirve JasperReports?:",
-    "respuesta": "Para crear informes visuales.",
+    "pregunta": "¿Cuál es un ejemplo común de parametrización básica en un sistema de gestión?",
+    "respuesta": "La configuración del tipo de IVA aplicable a los productos de la empresa.",
     "opciones": [
-      "Para crear informes visuales.",
-      "Para convertir informes a pdf.",
-      "Para crear páginas web."
+      "La reescritura total del código del motor de base de datos.",
+      "La configuración del tipo de IVA aplicable a los productos de la empresa.",
+      "El diseño de un nuevo sistema operativo para los servidores."
     ]
   },
   {
-    "pregunta": "El lenguaje JavaScript ¿se usa en Odoo?:",
-    "respuesta": "Si, en las vistas.",
+    "pregunta": "¿Por qué es necesario documentar claramente los procedimientos almacenados personalizados?",
+    "respuesta": "Para que otros desarrolladores o administradores puedan mantenerlos.",
     "opciones": [
-      "Si, en las vistas.",
-      "Si, en los controladores.",
-      "Si, en los modelos."
+      "Porque lo exige el manual de marketing.",
+      "Para que otros desarrolladores o administradores puedan mantenerlos.",
+      "Para que el servidor funcione más rápido."
     ]
   },
   {
-    "pregunta": "¿Qué es un sistema transaccional?",
-    "respuesta": "Un sistema diseñado para ejecutar y gestionar transacciones empresariales.",
+    "pregunta": "¿Qué etiqueta XML se utiliza para incorporar un nuevo elemento visual de datos en una página de “Información General”?",
+    "respuesta": "<field>.",
     "opciones": [
-      "Un sistema de almacenamiento de datos.",
-      "Un sistema diseñado para ejecutar y gestionar transacciones empresariales.",
-      "Un tipo de consulta SQL."
+      "<field>.",
+      "<page>.",
+      "<group>."
     ]
   },
   {
-    "pregunta": "Dentro de Visual Studio Code deberemos instalar extensiones para ayudarnos durante la programación, una de ellas es:",
-    "respuesta": "Python.",
+    "pregunta": "¿Qué operador lógico de Python se utiliza para negar una condición booleana?",
+    "respuesta": "not.",
     "opciones": [
-      "SCRUM.",
-      "PostgreSQL.",
-      "Python."
+      "!.",
+      "and.",
+      "not."
     ]
   },
   {
-    "pregunta": "¿Cuál es la principal función de un ORM (Object-Relational Mapping) en el desarrollo de componentes para un ERP?",
-    "respuesta": "Mapear objetos de la aplicación a una base de datos relacional.",
+    "pregunta": "¿Qué permite la capa ORM de Odoo en el desarrollo de componentes?",
+    "respuesta": "Crear modelos y gestionar la persistencia contra la base de datos sin escribir sentencias SQL.",
     "opciones": [
-      "Gestionar la interfaz de usuario.",
-      "Mapear objetos de la aplicación a una base de datos relacional.",
-      "Crear contenido multimedia."
+      "Diseñar interfaces gráficas en 3D.",
+      "Traducir el código Python a HTML automáticamente.",
+      "Crear modelos y gestionar la persistencia contra la base de datos sin escribir sentencias SQL."
     ]
   },
   {
-    "pregunta": "¿Podemos crear un módulo de Odoo con otro lenguaje que no sea Python?:",
-    "respuesta": "No, solo con Python.",
+    "pregunta": "¿Qué arquitectura técnica utiliza Odoo para el desarrollo de vistas y formularios?",
+    "respuesta": "Las vistas se definen en XML y son interpretadas por el framework de JavaScript.",
     "opciones": [
-      "Si, con Javascript.",
-      "Si, con PHP.",
-      "No, solo con Python."
+      "Las vistas se definen en XML y son interpretadas por el framework de JavaScript.",
+      "Las vistas se programan directamente en lenguaje ensamblador.",
+      "Las vistas se definen en ficheros binarios."
     ]
   },
   {
-    "pregunta": "Dentro de un módulo cómo podemos definir una relación muchos a muchos:",
-    "respuesta": "many2many.",
+    "pregunta": "¿Qué se debe documentar para asegurar que el desarrollo a medida sea mantenible?",
+    "respuesta": "Documentación clara para que otros desarrolladores puedan mantener los procesos.",
     "opciones": [
-      "one2many.",
-      "many2one.",
-      "many2many."
+      "Solo el código final sin comentarios.",
+      "Documentación clara para que otros desarrolladores puedan mantener los procesos.",
+      "Únicamente los logotipos utilizados."
     ]
   },
   {
-    "pregunta": "¿Cómo se define una función en Python?:",
-    "respuesta": "def nombre_funcion(parámetros):",
+    "pregunta": "¿Cuál es la función de la capa ORM que proporciona Odoo?",
+    "respuesta": "Permite crear modelos y aislar la lógica de la vista sin escribir apenas sentencias SQL.",
     "opciones": [
-      "let nombre_funcion(parámetros):",
-      "def nombre_funcion(parámetros):",
-      "define nombre_funcion(parámetros):"
+      "Gestiona la conexión física de red de los usuarios.",
+      "Permite crear modelos y aislar la lógica de la vista sin escribir apenas sentencias SQL.",
+      "Sirve para diseñar iconos personalizados."
     ]
   },
   {
-    "pregunta": "Depurar un programa consiste en encontrar y corregir los problemas que pueda tener el código del mismo:",
-    "respuesta": "Cierto.",
+    "pregunta": "¿Qué información es crucial incluir al registrar una actividad de mantenimiento o modificación de software?",
+    "respuesta": "Descripción detallada de las tareas, responsables y resultados obtenidos.",
     "opciones": [
-      "Es falso.",
-      "Depende del lenguaje.",
-      "Cierto."
+      "Solo la fecha de inicio.",
+      "Descripción detallada de las tareas, responsables y resultados obtenidos.",
+      "La lista de la compra del departamento de TI."
     ]
   },
   {
-    "pregunta": "¿Cuándo utilizo Python cuál es el símbolo de carácter genérico dentro de la definición de un parámetro?:",
-    "respuesta": "%g.",
+    "pregunta": "¿Qué tipo de herencia soporta Python al ser un lenguaje orientado a objetos?",
+    "respuesta": "Herencia múltiple.",
     "opciones": [
-      "%g.",
-      "%i.",
-      "%f."
+      "No permite el uso de herencia.",
+      "Únicamente herencia simple.",
+      "Herencia múltiple."
     ]
   },
   {
-    "pregunta": "¿Qué es la integración continua en el desarrollo de componentes?",
-    "respuesta": "Una práctica de desarrollo de software en la que el código se integra frecuentemente en",
+    "pregunta": "¿Qué modelo de Odoo se encarga de almacenar las definiciones de las vistas en la base de datos?",
+    "respuesta": "ir.ui.view.",
     "opciones": [
-      "Un proceso para diseñar gráficos.",
-      "Un tipo de base de datos.",
-      "Una práctica de desarrollo de software en la que el código se integra frecuentemente en un repositorio compartido."
+      "ir.ui.view.",
+      "res.partner.",
+      "sale.order."
     ]
   },
   {
-    "pregunta": "Cuando se realizan consultas a grandes bases de datos, ¿cómo podemos optimizar las consultas para que el rendimiento del sistema mejore o sea el óptimo?:",
-    "respuesta": "Almacenar en cache los datos que son usados en la sesión.",
+    "pregunta": "¿Cuál es la característica principal de las \"Tuplas\" en Python comparadas con las \"Listas\"?",
+    "respuesta": "Las tuplas son inmutables y las listas son mutables.",
     "opciones": [
-      "Incorporando más claves primarias en las tablas",
-      "Almacenar en cache los datos que son usados en la sesión.",
-      "Aumentar el número de consultas realizadas desde la aplicación."
+      "Las tuplas son inmutables y las listas son mutables.",
+      "Las tuplas son mutables y las listas inmutables.",
+      "Ambas son mutables pero se delimitan con diferentes símbolos."
     ]
   },
   {
-    "pregunta": "¿Qué es un entorno de desarrollo integrado (IDE)?",
-    "respuesta": "Un software que proporciona herramientas completas para el desarrollo de software,",
+    "pregunta": "¿Qué estructura se utiliza para devolver datos desde una función al flujo principal del programa?",
+    "respuesta": "Sentencia return.",
     "opciones": [
-      "Un sistema de gestión de bases de datos.",
-      "Un programa que permite editar imágenes.",
-      "Un software que proporciona herramientas completas para el desarrollo de software, como edición de código, depuración y compilación."
+      "Sentencia return.",
+      "Sentencia get.",
+      "Sentencia break."
     ]
   },
   {
-    "pregunta": "¿Cuál de los siguientes lenguajes de programación es comúnmente utilizado para desarrollar componentes en un ERP?",
-    "respuesta": "Python.",
+    "pregunta": "¿Cuáles son los dos ficheros principales que deben existir en el directorio de un módulo de Odoo?",
+    "respuesta": "El manifest (manifest.py) y el fichero de importaciones (init.py).",
     "opciones": [
-      "HTML.",
-      "CSS.",
-      "Python."
+      "index.html y style.css.",
+      "El manifest (manifest.py) y el fichero de importaciones (init.py).",
+      "readme.txt y license.php."
     ]
   },
   {
-    "pregunta": "¿Podemos crear un módulo en Odoo sin un modelo asociado?:",
-    "respuesta": "No, siempre es necesario al menos un modelo.",
+    "pregunta": "¿Qué etiqueta XML raíz se utiliza para definir una vista de tipo listado en Odoo?",
+    "respuesta": "<tree>",
     "opciones": [
-      "No, a no ser que tampoco creemos una vista.",
-      "Si, los modelos no son necesarios.",
-      "No, siempre es necesario al menos un modelo."
+      "<graph>",
+      "<form>",
+      "<tree>"
     ]
   },
   {
-    "pregunta": "¿Qué parte de un módulo en Odoo declara las rutas que el navegador puede realizar?:",
+    "pregunta": "¿Qué función básica de Python se usa para ver los valores de las variables por consola durante una depuración sencilla?",
+    "respuesta": "print().",
+    "opciones": [
+      "print().",
+      "show().",
+      "log()."
+    ]
+  },
+  {
+    "pregunta": "¿Qué formato de archivo se genera al usar la acción “Imprimir factura” en facturación de Odoo?",
+    "respuesta": "PDF",
+    "opciones": [
+      "PDF",
+      "CSV",
+      "XLSX"
+    ]
+  },
+  {
+    "pregunta": "¿Qué se utiliza para personalizar documentos como facturas en Odoo?",
+    "respuesta": "Diseñador integrado",
+    "opciones": [
+      "Diseñador integrado",
+      "Exportación a CSV",
+      "Jasper Reports"
+    ]
+  },
+  {
+    "pregunta": "¿Qué módulo de Odoo se usa para gestionar tickets, equipos, SLA y base de conocimiento?",
+    "respuesta": "Módulo Helpdesk",
+    "opciones": [
+      "Módulo Helpdesk",
+      "Odoo Spreadsheet",
+      "Módulo CRM"
+    ]
+  },
+  {
+    "pregunta": "¿Qué es un modelo dentro de Odoo?",
+    "respuesta": "Es la “M” de modelo dentro de la arquitectura MVC",
+    "opciones": [
+      "Un procedimiento almacenado en PostgreSQL",
+      "Es la “M” de modelo dentro de la arquitectura MVC",
+      "Una capa que define la estructura y comportamiento de los datos"
+    ]
+  },
+  {
+    "pregunta": "¿Para qué sirve log_line_prefix en PostgreSQL?",
+    "respuesta": "Definir qué información aparece al inicio de cada línea del log",
+    "opciones": [
+      "Definir qué información aparece al inicio de cada línea del log",
+      "Definir qué información aparece al inicio de cada línea del log",
+      "Activar logging collector"
+    ]
+  },
+  {
+    "pregunta": "En helpdesk, tras Clasificar la incidencia, ¿qué paso se realiza?",
+    "respuesta": "Realizar solución ya documentada",
+    "opciones": [
+      "Documentar incidencia",
+      "Realizar solución ya documentada",
+      "Asignar incidencia"
+    ]
+  },
+  {
+    "pregunta": "¿Por qué la información es coherente en una base de datos centralizada?",
+    "respuesta": "Porque la introducción y explotación de datos es coherente",
+    "opciones": [
+      "Porque la introducción y explotación de datos es coherente",
+      "Porque se necesitan herramientas no conectadas",
+      "Porque se usan SGBD ofimáticos"
+    ]
+  },
+  {
+    "pregunta": "¿Qué acción genera el PDF de una factura de cliente en Odoo?",
+    "respuesta": "Imprimir factura",
+    "opciones": [
+      "Registrar pago",
+      "Imprimir factura",
+      "Enviar por correo electrónico"
+    ]
+  },
+  {
+    "pregunta": "¿Qué enfoque de monitorización se utiliza para analizar el espacio, la conectividad y el funcionamiento del hardware?",
+    "respuesta": "Monitorización de las infraestructuras",
+    "opciones": [
+      "Monitorización de los datos relacionados",
+      "Monitorización del software de gestión empresarial",
+      "Monitorización de las infraestructuras"
+    ]
+  },
+  {
+    "pregunta": "Si un formulario incluye estados (ej: presupuesto → pedido), ¿qué herramienta orquesta ese proceso?",
+    "respuesta": "Acciones servidor (cron/automatizaciones)",
+    "opciones": [
+      "Acciones servidor (cron/automatizaciones)",
+      "Informes de BI",
+      "Procesos de extracción"
+    ]
+  },
+  {
+    "pregunta": "¿Qué elemento de un report en Jaspersoft Studio incluye los datos provenientes de la BD?",
+    "respuesta": "Detail",
+    "opciones": [
+      "Detail",
+      "Title",
+      "Column Header"
+    ]
+  },
+  {
+    "pregunta": "En la extracción de datos a través de Odoo, ¿cuál es uno de los mecanismos de presentación?",
+    "respuesta": "Vistas",
+    "opciones": [
+      "Vistas",
+      "SQL SELECT",
+      "JDBC Connection"
+    ]
+  },
+  {
+    "pregunta": "¿Qué herramienta se utiliza para generar dashboards en tiempo real al integrar Prometheus u otras fuentes de logs?",
+    "respuesta": "Grafana",
+    "opciones": [
+      "Grafana",
+      "Nagios",
+      "Zabbix"
+    ]
+  },
+  {
+    "pregunta": "¿Qué herramienta externa en versión Community se utiliza para informes específicos?",
+    "respuesta": "Jasper Reports",
+    "opciones": [
+      "Jasper Reports",
+      "Power BI",
+      "Crystal Reports"
+    ]
+  },
+  {
+    "pregunta": "¿Qué función cumplen los “filtros” en las consultas de pedidos de ventas?",
+    "respuesta": "Seleccionar un subconjunto de información según criterios como la fecha.",
+    "opciones": [
+      "Borrar los datos antiguos.",
+      "Seleccionar un subconjunto de información según criterios como la fecha.",
+      "Cambiar el color de la interfaz."
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es la forma más directa de alcanzar la edición de una vista o formulario en Odoo?",
+    "respuesta": "A partir del mismo formulario o vista en el que se encuentra el usuario.",
+    "opciones": [
+      "Reiniciando el motor de base de datos PostgreSQL.",
+      "A partir del mismo formulario o vista en el que se encuentra el usuario.",
+      "Buscando en el manual de instrucciones del fabricante."
+    ]
+  },
+  {
+    "pregunta": "¿Por qué es fundamental conocer la actividad y cómo la realiza una empresa antes de implantar un software de gestión?",
+    "respuesta": "Para implantar correctamente el software según las necesidades específicas.",
+    "opciones": [
+      "Para poder cobrar una tarifa más alta.",
+      "Para decidir el número de ordenadores que se comprarán.",
+      "Para implantar correctamente el software según las necesidades específicas."
+    ]
+  },
+  {
+    "pregunta": "Al realizar consultas complejas, ¿qué tipo de filtrado permite obtener datos detallados de un periodo concreto?",
+    "respuesta": "El filtrado temporal o por fecha.",
+    "opciones": [
+      "El filtrado por el nombre del administrador.",
+      "El filtrado temporal o por fecha.",
+      "El filtrado por el tamaño del archivo."
+    ]
+  },
+  {
+    "pregunta": "¿Qué prueba mide la respuesta del sistema cuando hay muchos usuarios conectados a la vez?",
+    "respuesta": "Prueba de estrés/rendimiento.",
+    "opciones": [
+      "Prueba de integración.",
+      "Prueba funcional.",
+      "Prueba de estrés/rendimiento."
+    ]
+  },
+  {
+    "pregunta": "¿Qué se verifica específicamente en una “Prueba Funcional”?",
+    "respuesta": "Que cada módulo del sistema cumple con lo previsto (ej. generar factura tras venta).",
+    "opciones": [
+      "Que el teclado del usuario funciona correctamente.",
+      "Que cada módulo del sistema cumple con lo previsto (ej. generar factura tras venta).",
+      "Que el servidor es de color negro."
+    ]
+  },
+  {
+    "pregunta": "¿Qué tipo de visualización en Odoo permite añadir nuevos cálculos o dimensiones a partir de un listado de información?",
+    "respuesta": "Tabla pivotante.",
+    "opciones": [
+      "Tabla pivotante.",
+      "Gráfico de barras.",
+      "Vista Kanban."
+    ]
+  },
+  {
+    "pregunta": "¿Qué comando SQL permite relacionar dos tablas (como productos y proveedores) en una consulta?",
+    "respuesta": "INNER JOIN.",
+    "opciones": [
+      "GROUP BY.",
+      "ORDER BY.",
+      "INNER JOIN."
+    ]
+  },
+  {
+    "pregunta": "Al crear un nuevo campo en un formulario, ¿qué apartado define el texto que verá el usuario junto al campo?",
+    "respuesta": "Etiqueta del campo.",
+    "opciones": [
+      "Etiqueta del campo.",
+      "Tipo de dato.",
+      "Nombre técnico."
+    ]
+  },
+  {
+    "pregunta": "¿Por qué se utilizan procedimientos almacenados en lugar de consultas directas en ciertos casos?",
+    "respuesta": "Para automatizar procesos repetitivos complejos directamente en el servidor de la base de datos.",
+    "opciones": [
+      "Para automatizar procesos repetitivos complejos directamente en el servidor de la base de datos.",
+      "Porque Odoo prohíbe el uso de consultas SELECT normales.",
+      "Para que el código sea más difícil de leer por la competencia."
+    ]
+  },
+  {
+    "pregunta": "¿Cómo se facilita la introducción de datos específicos como la “trazabilidad” en una empresa agroalimentaria?",
+    "respuesta": "Creando un formulario personalizado que incluya ese campo en la vista de producto.",
+    "opciones": [
+      "Creando un formulario personalizado que incluya ese campo en la vista de producto.",
+      "Escribiéndolo a mano en el campo de descripción general.",
+      "Enviando un correo electrónico al proveedor cada vez."
+    ]
+  },
+  {
+    "pregunta": "¿Para qué es útil documentar las incidencias observadas durante las pruebas?",
+    "respuesta": "Para facilitar la corrección de errores y futuras auditorías.",
+    "opciones": [
+      "Para culpar al responsable del error.",
+      "Para facilitar la corrección de errores y futuras auditorías.",
+      "Para llenar el archivo de la empresa."
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es un elemento básico de un checklist de pruebas en ERP-CRM?",
+    "respuesta": "Crear un pedido de venta y confirmar su integración con el inventario.",
+    "opciones": [
+      "Comprobar la velocidad del ratón.",
+      "Crear un pedido de venta y confirmar su integración con el inventario.",
+      "Cambiar el fondo de pantalla."
+    ]
+  },
+  {
+    "pregunta": "¿Qué metodología de depuración avanzada permite añadir un recubrimiento sin realizar cambios en el código fuente?",
+    "respuesta": "El Odoo Debug Manager o herramientas de desarrollador del navegador.",
+    "opciones": [
+      "El Odoo Debug Manager o herramientas de desarrollador del navegador.",
+      "El uso de logging en Python.",
+      "Borrar la base de datos y empezar de cero."
+    ]
+  },
+  {
+    "pregunta": "¿Por qué el modelo SCRUM utiliza el Product Backlog como documentación clave?",
+    "respuesta": "Porque es una lista viva de requisitos funcionales y no funcionales priorizados.",
+    "opciones": [
+      "Porque es una lista viva de requisitos funcionales y no funcionales priorizados.",
+      "Porque es un documento estático que nunca se modifica.",
+      "Porque contiene las nóminas de los desarrolladores."
+    ]
+  },
+  {
+    "pregunta": "¿A través de qué mecanismo se hacen persistentes los objetos de negocio en Odoo?",
+    "respuesta": "A través de la configuración y la capa ORM que extiende la clase Model.",
+    "opciones": [
+      "No son persistentes, se borran al cerrar la sesión.",
+      "A través de la configuración y la capa ORM que extiende la clase Model.",
+      "Escribiendo manualmente archivos de texto en el servidor."
+    ]
+  },
+  {
+    "pregunta": "¿Qué fichero de configuración de Odoo se utiliza para controlar los logs de depuración del servidor?",
+    "respuesta": "odoo.conf.",
+    "opciones": [
+      "manifest.py.",
+      "odoo.conf.",
+      "requirements.txt."
+    ]
+  },
+  {
+    "pregunta": "Para que un conjunto sea inmutable en Python, ¿qué sentencia se debe utilizar?",
+    "respuesta": "frozenset(secuencia).",
+    "opciones": [
+      "frozenset(secuencia).",
+      "const(secuencia).",
+      "set(secuencia)."
+    ]
+  },
+  {
+    "pregunta": "¿Qué símbolo se utiliza para delimitar las Listas en Python?",
+    "respuesta": "Corchetes [].",
+    "opciones": [
+      "Paréntesis ().",
+      "Llaves {}.",
+      "Corchetes []."
+    ]
+  },
+  {
+    "pregunta": "¿Cuál de las siguientes es una característica de la sintaxis de Python?",
+    "respuesta": "Posee una sintaxis muy sencilla que facilita su aprendizaje.",
+    "opciones": [
+      "Es extremadamente compleja y difícil de aprender.",
+      "Posee una sintaxis muy sencilla que facilita su aprendizaje.",
+      "Requiere el uso obligatorio de punto y coma al final de cada línea."
+    ]
+  },
+  {
+    "pregunta": "¿Qué proceso se debe seguir para que los datos de demostración de un módulo se carguen en el sistema?",
+    "respuesta": "Instalar o actualizar el módulo en Odoo.",
+    "opciones": [
+      "Escribir los datos manualmente en la consola de PostgreSQL.",
+      "Instalar o actualizar el módulo en Odoo.",
+      "Reiniciar el ordenador del cliente."
+    ]
+  },
+  {
+    "pregunta": "¿Cómo se denomina en Python a la característica que permite a un lenguaje no preocuparse de detalles de bajo nivel como el manejo de memoria?",
+    "respuesta": "Lenguaje de alto nivel.",
+    "opciones": [
+      "Programación estructurada.",
+      "Lenguaje de alto nivel.",
+      "Lenguaje de bajo nivel."
+    ]
+  },
+  {
+    "pregunta": "¿Qué herramienta se utiliza para acceder a funciones matemáticas avanzadas (como el seno) que no están en el núcleo básico de Python?",
+    "respuesta": "La importación de bibliotecas o módulos como math.",
+    "opciones": [
+      "La edición del fichero manifest.py.",
+      "La importación de bibliotecas o módulos como math.",
+      "El uso de la capa ORM de Odoo."
+    ]
+  },
+  {
+    "pregunta": "Al corregir un error tras una actualización de módulo, ¿qué metodología se recomienda si los cambios pequeños no funcionan?",
+    "respuesta": "Realizar una \"vuelta atrás\" del código y comprobar el funcionamiento previo.",
+    "opciones": [
+      "Realizar una \"vuelta atrás\" del código y comprobar el funcionamiento previo.",
+      "Ignorar los mensajes de error y continuar con el desarrollo.",
+      "Borrar todo el servidor de Odoo."
+    ]
+  },
+  {
+    "pregunta": "En Python, ¿qué sucede si intentas modificar el contenido de un tipo de dato inmutable como un número?",
+    "respuesta": "Su contenido no puede alterarse directamente.",
+    "opciones": [
+      "Su contenido no puede alterarse directamente.",
+      "El programa da un error de compilación.",
+      "Se borra automáticamente de la base de datos."
+    ]
+  },
+  {
+    "pregunta": "¿Qué atributo es obligatorio definir al crear un nuevo modelo en Odoo para darle nombre?",
+    "respuesta": "_name.",
+    "opciones": [
+      "_name.",
+      "_description.",
+      "_string."
+    ]
+  },
+  {
+    "pregunta": "¿En qué consiste la extracción de información en un ERP-CRM?",
+    "respuesta": "Preparar y presentar información almacenada en la base de datos",
+    "opciones": [
+      "Preparar y presentar información almacenada en la base de datos",
+      "Preparar y presentar información almacenada en la base de datos",
+      "En usar un SGBD ofimático"
+    ]
+  },
+  {
+    "pregunta": "¿Qué tipo de incidencia es más compleja de analizar porque puede deberse a mala parametrización o implantación?",
+    "respuesta": "Incidencias de aplicación (negocio)",
+    "opciones": [
+      "Incidencias de aplicación (negocio)",
+      "Incidencias de plataforma",
+      "Incidencias de calidad de la información"
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es la finalidad principal de la inteligencia de negocio (BI)?",
+    "respuesta": "Transformar datos en información útil para decisiones",
+    "opciones": [
+      "Almacenar datos en un repositorio",
+      "Reducir errores de introducción de datos",
+      "Transformar datos en información útil para decisiones"
+    ]
+  },
+  {
+    "pregunta": "¿Qué se utiliza para crear dashboards en tiempo real integrados con Prometheus?",
+    "respuesta": "Grafana",
+    "opciones": [
+      "Grafana",
+      "Apache Superset",
+      "Grafana"
+    ]
+  },
+  {
+    "pregunta": "En una conexión JDBC para Jaspersoft Studio, ¿cuál es el puerto por defecto de PostgreSQL?",
+    "respuesta": "5432",
+    "opciones": [
+      "8069",
+      "5432",
+      "443"
+    ]
+  },
+  {
+    "pregunta": "¿Qué es Odoo Spreadsheet?",
+    "respuesta": "Una hoja de cálculo integrada en Odoo con KPIs y paneles dinámicos",
+    "opciones": [
+      "El servidor de datos de Odoo",
+      "Una hoja de cálculo integrada en Odoo con KPIs y paneles dinámicos",
+      "Una herramienta de BI externa"
+    ]
+  },
+  {
+    "pregunta": "¿Qué tipo de vistas en Odoo son configurables y sirven como listados interactivos?",
+    "respuesta": "Vistas",
+    "opciones": [
+      "Spreadsheet",
+      "Informes PDF",
+      "Vistas"
+    ]
+  },
+  {
+    "pregunta": "¿Qué campo es habitual encontrar en un registro de logs?",
+    "respuesta": "Fecha y hora",
+    "opciones": [
+      "Fecha y hora",
+      "Nombre del cliente",
+      "Código fuente completo"
+    ]
+  },
+  {
+    "pregunta": "¿Qué es un ejemplo de error de información por mala calidad en un ERP?",
+    "respuesta": "Entradas duplicadas o mal enlazadas",
+    "opciones": [
+      "Incorrecta parametrización del módulo",
+      "Entradas duplicadas o mal enlazadas",
+      "Fallo en disco duro"
+    ]
+  },
+  {
+    "pregunta": "¿Qué se recomienda para evitar que un usuario sin permisos pueda alterar un campo en un formulario?",
+    "respuesta": "Marcar el campo como no editable si el usuario no debe cambiarlo",
+    "opciones": [
+      "Evitar el uso de SQL",
+      "Marcar el campo como requerido",
+      "Marcar el campo como no editable si el usuario no debe cambiarlo"
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es el mecanismo principal de interacción con el usuario en Odoo para introducir información?",
+    "respuesta": "Los formularios",
+    "opciones": [
+      "La exportación a CSV",
+      "Los formularios",
+      "Los logs del sistema"
+    ]
+  },
+  {
+    "pregunta": "¿Qué tipos de formularios generales se encuentran para una tabla o maestro?",
+    "respuesta": "Dar de alta, modificar datos y eliminar elementos",
+    "opciones": [
+      "Solo dar de alta y modificar datos",
+      "Dar de alta, modificar datos y eliminar elementos",
+      "Únicamente generar listados"
+    ]
+  },
+  {
+    "pregunta": "¿Qué herramienta externa de BI se conecta a PostgreSQL mediante Npgsql y permite paneles interactivos?",
+    "respuesta": "Power BI",
+    "opciones": [
+      "Apache Superset",
+      "Power BI",
+      "Metabase"
+    ]
+  },
+  {
+    "pregunta": "En el flujo de trabajo del helpdesk, ¿por qué es imprescindible la documentación de una incidencia?",
+    "respuesta": "Porque permite tener una base de información que se pueda utilizar en un futuro",
+    "opciones": [
+      "Porque solo se necesita registrar el nombre del usuario",
+      "Porque solo se debe registrar si no se encuentra la solución",
+      "Porque permite tener una base de información que se pueda utilizar en un futuro"
+    ]
+  },
+  {
+    "pregunta": "¿Qué acción permite extraer un subconjunto de pedidos seleccionados para trabajar fuera del ERP?",
+    "respuesta": "La exportación de los datos a un fichero Excel.",
+    "opciones": [
+      "La eliminación de los registros tras la consulta.",
+      "La exportación de los datos a un fichero Excel.",
+      "La impresión del código XML de la vista."
+    ]
+  },
+  {
+    "pregunta": "¿Qué se verifica en una prueba de compatibilidad?",
+    "respuesta": "Si el software funciona en distintos navegadores, sistemas operativos y móviles.",
+    "opciones": [
+      "Si el sistema es amable con el usuario.",
+      "Si el software funciona en distintos navegadores, sistemas operativos y móviles.",
+      "Si el hardware es de la misma marca que el software."
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es una ventaja de utilizar procedimientos almacenados en el servidor?",
+    "respuesta": "La reducción del tiempo de respuesta al estar precompilados.",
+    "opciones": [
+      "La reducción del tiempo de respuesta al estar precompilados.",
+      "Que ocupan menos espacio en el disco duro.",
+      "Que no necesitan mantenimiento."
+    ]
+  },
+  {
+    "pregunta": "¿Qué herramienta externa se menciona como recurso para realizar informes personalizados sobre la base de datos?",
+    "respuesta": "JasperSoft Studio.",
+    "opciones": [
+      "Adobe Reader.",
+      "JasperSoft Studio.",
+      "Microsoft Word."
+    ]
+  },
+  {
+    "pregunta": "¿Qué se debe registrar tras identificar una desviación entre los objetivos planteados y el funcionamiento del sistema?",
+    "respuesta": "Las incidencias observadas y las evidencias encontradas durante las pruebas.",
+    "opciones": [
+      "Las incidencias observadas y las evidencias encontradas durante las pruebas.",
+      "Nada, si el error se corrige al momento no hace falta registrarlo.",
+      "Solo el nombre de quien detectó el fallo."
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es el paso previo indispensable antes de diseñar cualquier informe personalizado?",
+    "respuesta": "Conocer la base de datos y la información que se desea exportar.",
+    "opciones": [
+      "Imprimir el listado de ventas.",
+      "Llamar al servicio técnico de Odoo.",
+      "Conocer la base de datos y la información que se desea exportar."
+    ]
+  },
+  {
+    "pregunta": "¿Qué permite la integración de herramientas de Business Intelligence (BI) con el ERP?",
+    "respuesta": "Realizar análisis de datos y cuadros de mando mucho más potentes.",
+    "opciones": [
+      "Desinstalar los módulos de ventas y compras.",
+      "Realizar análisis de datos y cuadros de mando mucho más potentes.",
+      "Evitar que los directivos tengan que usar el software."
+    ]
+  },
+  {
+    "pregunta": "¿Qué se utiliza en Odoo 18 como alternativa preferente a los procedimientos SQL para implementar la lógica habitual del sistema?",
+    "respuesta": "Python junto con el ORM de Odoo, campos compute y acciones programadas.",
+    "opciones": [
+      "Solo macros de Excel.",
+      "Únicamente el editor de texto del sistema operativo.",
+      "Python junto con el ORM de Odoo, campos compute y acciones programadas."
+    ]
+  },
+  {
+    "pregunta": "¿Qué ventaja ofrece el uso de herramientas “low-code” como Odoo Studio para la adaptación funcional?",
+    "respuesta": "Permite añadir campos y crear informes sin necesidad de conocimientos de programación.",
+    "opciones": [
+      "Elimina la necesidad de realizar copias de seguridad.",
+      "Permite añadir campos y crear informes sin necesidad de conocimientos de programación.",
+      "Hace que el programa funcione sin conexión a internet."
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es una ventaja técnica de los procedimientos almacenados respecto al tiempo de respuesta?",
+    "respuesta": "El tiempo de respuesta se reduce porque el código está precompilado en el servidor.",
+    "opciones": [
+      "El tiempo de respuesta se reduce porque el código está precompilado en el servidor.",
+      "No tienen ninguna ventaja de velocidad.",
+      "Hacen que el ordenador del usuario funcione más rápido."
+    ]
+  },
+  {
+    "pregunta": "¿Por qué es “imprescindible” documentar cada prueba realizada con evidencias como capturas o logs?",
+    "respuesta": "Para facilitar la corrección de errores y futuras auditorías.",
+    "opciones": [
+      "Para ocupar espacio en el servidor de archivos.",
+      "Porque Odoo no permite funcionar si no hay documentos adjuntos.",
+      "Para facilitar la corrección de errores y futuras auditorías."
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es la recomendación técnica al editar vistas XML en Odoo 18 para garantizar que los cambios sobrevivan a futuras actualizaciones?",
+    "respuesta": "Utilizar siempre vistas heredadas para no tocar la vista estándar.",
+    "opciones": [
+      "Cambiar el nombre de la tabla principal en la base de datos.",
+      "Utilizar siempre vistas heredadas para no tocar la vista estándar.",
+      "Modificar directamente el código de las vistas estándar del sistema."
+    ]
+  },
+  {
+    "pregunta": "Para añadir un campo de “trazabilidad” en una empresa agroalimentaria, ¿dónde se debe realizar la modificación habitualmente?",
+    "respuesta": "En el modelo de Producto.",
+    "opciones": [
+      "En el modelo de Producto.",
+      "En el manual de usuario.",
+      "En la factura final de venta."
+    ]
+  },
+  {
+    "pregunta": "¿Qué lenguaje de marcas se emplea para construir interfaces reactivas y modernas en las versiones recientes de Odoo?",
+    "respuesta": "OWL (Odoo Web Library).",
+    "opciones": [
+      "OWL (Odoo Web Library).",
+      "ASP.NET.",
+      "PHP."
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es el comando correcto para generar la estructura de un módulo llamado 'mimodulo' en el directorio de addons?",
+    "respuesta": "odoo-bin scaffold mimodulo addons.",
+    "opciones": [
+      "odoo-bin scaffold mimodulo addons.",
+      "docker run mimodulo.",
+      "python install mimodulo."
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es la función técnica de un batch input documentado en el sistema?",
+    "respuesta": "La importación automática de datos provenientes de software externos.",
+    "opciones": [
+      "La importación automática de datos provenientes de software externos.",
+      "El apagado programado del servidor central.",
+      "La eliminación de usuarios inactivos."
+    ]
+  },
+  {
+    "pregunta": "¿Qué utilidad tiene la ventana de detalles de error que ofrece Odoo en modo desarrollador?",
+    "respuesta": "Mostrar el itinerario del error, el mensaje específico y su contexto.",
+    "opciones": [
+      "Ocultar el error para que el usuario no se asuste.",
+      "Mostrar el itinerario del error, el mensaje específico y su contexto.",
+      "Cambiar el idioma del sistema automáticamente."
+    ]
+  },
+  {
+    "pregunta": "¿Qué componente de un módulo de Odoo se encarga de declarar las rutas que el navegador puede realizar?",
     "respuesta": "Controladores web.",
     "opciones": [
-      "Vistas.",
-      "Formularios.",
-      "Controladores web."
+      "Controladores web.",
+      "Datos estáticos.",
+      "Objetos de negocio."
     ]
   },
   {
-    "pregunta": "¿Como accedemos a la definición de las vistas de Odoo?:",
-    "respuesta": "A través del menú técnico.",
+    "pregunta": "En Odoo, ¿qué lenguaje de marcas se utiliza junto a XML para definir formularios e informes?",
+    "respuesta": "XML / QWeb.",
     "opciones": [
-      "A través del módulo de configuración del sistema.",
-      "A través del menú técnico.",
-      "A través de un IDE de HTML como Visual Studio."
+      "C++.",
+      "XML / QWeb.",
+      "Python."
     ]
   },
   {
-    "pregunta": "¿Qué es una tabla en una base de datos?",
-    "respuesta": "Una estructura que organiza los datos en filas y columnas.",
+    "pregunta": "¿Qué tipo de vista permite realizar análisis y agregados de datos en Odoo mediante el atributo type=\"measure\"?",
+    "respuesta": "Gráficos (Graph View).",
     "opciones": [
-      "Un tipo de índice.",
-      "Una estructura que organiza los datos en filas y columnas.",
-      "Una representación gráfica de datos."
+      "Formularios (Form View).",
+      "Gráficos (Graph View).",
+      "Listados (Tree View)."
     ]
   },
   {
-    "pregunta": "¿Cómo activamos el modo desarrollador en Odoo?:",
-    "respuesta": "Desde el menú de ajustes.",
+    "pregunta": "¿Qué tipo de dato numérico se utiliza en Python para representar números reales?",
+    "respuesta": "float.",
     "opciones": [
-      "Desde el módulo de usuarios.",
-      "Desde la configuración del usuario.",
-      "Desde el menú de ajustes."
+      "float.",
+      "int.",
+      "bool."
     ]
   },
   {
-    "pregunta": "¿Qué es integridad de datos?",
-    "respuesta": "El mantenimiento de la precisión y consistencia de los datos.",
+    "pregunta": "¿Cuál de las siguientes estructuras es una colección no ordenada de elementos inmutables que descarta duplicados?",
+    "respuesta": "Conjuntos (set).",
     "opciones": [
-      "El proceso de duplicar datos.",
-      "El almacenamiento de datos en discos duros.",
-      "El mantenimiento de la precisión y consistencia de los datos."
+      "Tuplas.",
+      "Listas.",
+      "Conjuntos (set)."
     ]
   },
   {
-    "pregunta": "¿Qué herramienta de Odoo permite enviar campañas de marketing por correo electrónico?",
-    "respuesta": "Email Marketing.",
+    "pregunta": "¿Cuál es la función principal de los lenguajes HTML, JS y CSS en el desarrollo de componentes de Odoo?",
+    "respuesta": "Desarrollo visual y de interacción con el usuario.",
     "opciones": [
-      "Website.",
-      "Email Marketing.",
-      "CRM."
+      "Desarrollo visual y de interacción con el usuario.",
+      "Gestión de la base de datos.",
+      "Procesamiento de lógica pesada en el servidor."
     ]
   },
   {
-    "pregunta": "¿Qué es PostgreSQL?",
-    "respuesta": "Un sistema de gestión de bases de datos relacional.",
+    "pregunta": "¿Qué relación de datos se debe emplear para vincular n elementos de un modelo con n elementos de otro de forma bidireccional?",
+    "respuesta": "Many2many.",
     "opciones": [
-      "Un lenguaje de programación.",
-      "Un sistema operativo.",
-      "Un sistema de gestión de bases de datos relacional."
+      "One2many.",
+      "Many2many.",
+      "Many2one."
     ]
   },
   {
-    "pregunta": "¿Qué lenguaje no se usa en Odoo?:",
-    "respuesta": "Ruby.",
+    "pregunta": "Para evitar elementos duplicados en una colección de datos en Python, ¿qué estructura es la más adecuada?",
+    "respuesta": "Un conjunto (set).",
     "opciones": [
-      "Python.",
-      "HTML.",
-      "Ruby."
+      "Una cadena (string).",
+      "Una lista (list).",
+      "Un conjunto (set)."
     ]
   },
   {
-    "pregunta": "Las tablas que son “core” de Odoo comienzan con el sufijo…",
-    "respuesta": "base.",
+    "pregunta": "En la arquitectura de Odoo, ¿qué lenguajes se combinan para el desarrollo visual y la interacción con el usuario?",
+    "respuesta": "HTML, JavaScript, CSS y XML.",
     "opciones": [
-      "base.",
-      "root.",
-      "core."
+      "Solo Python y XML.",
+      "HTML, JavaScript, CSS y XML.",
+      "Únicamente SQL y QWeb."
     ]
   },
   {
-    "pregunta": "¿Cuál es la principal diferencia entre Odoo Community y Odoo Enterprise?",
-    "respuesta": "Odoo Community es gratuito y de código abierto, mientras que Odoo Enterprise ofrece",
+    "pregunta": "¿Qué herramienta de código abierto se usa para monitorizar redes y alertar de fallos?",
+    "respuesta": "Nagios",
     "opciones": [
-      "Odoo Community es gratuito y de código abierto, mientras que Odoo Enterprise ofrece características adicionales y soporte comercial.",
-      "Odoo Community se usa solo para desarrollo y Odoo Enterprise solo para producción.",
-      "Odoo Community es de pago y Odoo Enterprise es gratuito."
+      "Prometheus",
+      "Nagios",
+      "Grafana"
     ]
   },
   {
-    "pregunta": "¿Qué significa la sigla SQL?",
-    "respuesta": "Structured Query Language.",
+    "pregunta": "¿Qué se utiliza para generar PDF de facturas en Odoo?",
+    "respuesta": "Plantillas QWeb con ir.actions.report",
     "opciones": [
-      "Simple Query Language.",
-      "Structured Query Language.",
-      "Standard Query Language."
+      "Plugin de Jaspersoft",
+      "SQL DELETE",
+      "Plantillas QWeb con ir.actions.report"
     ]
   },
   {
-    "pregunta": "Si queremos acceder a las tablas que contienen toda la información de Odoo para realizar operaciones de administración, debemos usar…",
-    "respuesta": "PgAdmin.",
+    "pregunta": "¿Dónde se encuentra por defecto el fichero de log de PostgreSQL en Linux?",
+    "respuesta": "Dentro de …/data/log/",
     "opciones": [
-      "El terminal de comandos.",
-      "PgAdmin.",
-      "phpMyAdmin."
+      "Dentro de …/data/log/",
+      "/etc/systemd/system",
+      "/usr/bin/odoo"
     ]
   },
   {
-    "pregunta": "¿Debemos instalar una aplicación cliente para usar Odoo?:",
-    "respuesta": "No, se usa desde cualquier navegador web",
+    "pregunta": "¿Cuál es la función del campo many2one en Odoo?",
+    "respuesta": "Expresar relaciones que suelen terminar en _id",
     "opciones": [
-      "No, se usa desde cualquier navegador web",
-      "Si, debemos usar el cliente oficial",
-      "Si, debemos usar un navegador específico para sistemas ERP"
+      "Almacenar valores booleanos",
+      "Expresar relaciones que suelen terminar en _id",
+      "Almacenar textos largos"
     ]
   },
   {
-    "pregunta": "¿Qué base de datos usa Odoo?:",
-    "respuesta": "PostgreSQL.",
+    "pregunta": "¿Qué tipo de extracción se realiza atacando directamente a la base de datos?",
+    "respuesta": "Extracción mediante generador de informes externo",
     "opciones": [
-      "PostgreSQL.",
-      "MongoDB.",
-      "MySQL."
+      "Extracción mediante gráficos del software",
+      "Extracción mediante vistas del software",
+      "Extracción mediante generador de informes externo"
     ]
   },
   {
-    "pregunta": "La base de datos de Odoo se puede gestionar desde…",
-    "respuesta": "PgAdmin",
+    "pregunta": "¿Qué alternativa de SGBD se descarta por no ser adecuada para multiusuario, concurrencia ni escalabilidad en un ERP/CRM?",
+    "respuesta": "SGBD ofimáticos como Microsoft Access",
     "opciones": [
-      "phpMyAdmin",
-      "SQLCreator",
-      "PgAdmin"
+      "Motores de base de datos de servidor (MySQL)",
+      "PostgreSQL",
+      "SGBD ofimáticos como Microsoft Access"
     ]
   },
   {
-    "pregunta": "¿Con qué herramienta podríamos realizar el seguimiento y auditoría de los usuarios de Odoo?:",
-    "respuesta": "PgAdmin",
+    "pregunta": "¿Qué parte de la interacción define los pasos y restricciones para introducir información en el sistema?",
+    "respuesta": "Los procesos relacionados",
     "opciones": [
-      "El administrador del sistema.",
-      "PgAdmin",
-      "NetSQL"
+      "Los listados de información",
+      "Los procesos relacionados",
+      "La extracción de datos"
     ]
   },
   {
-    "pregunta": "¿Qué es una base de datos NoSQL?",
-    "respuesta": "Una base de datos diseñada para manejar datos no estructurados y semiestructurados.",
+    "pregunta": "¿Qué sentencia SQL permite recuperar datos de la base de datos?",
+    "respuesta": "SELECT",
     "opciones": [
-      "Una base de datos diseñada para manejar datos no estructurados y semiestructurados.",
-      "Una base de datos que solo acepta consultas SQL.",
-      "Un sistema operativo."
+      "SELECT",
+      "UPDATE",
+      "INSERT"
     ]
   },
   {
-    "pregunta": "¿Qué es una estrategia de backup incremental?",
-    "respuesta": "Un backup que solo copia los datos que han cambiado desde el último backup.",
+    "pregunta": "¿Qué herramienta se usa junto con Prometheus para crear cuadros de mando en tiempo real?",
+    "respuesta": "Grafana",
     "opciones": [
-      "Un backup completo de todos los datos.",
-      "Un backup que se realiza en tiempo real.",
-      "Un backup que solo copia los datos que han cambiado desde el último backup."
+      "Zabbix",
+      "Grafana",
+      "Nagios"
     ]
   },
   {
-    "pregunta": "¿Qué herramienta con versión gratuita podemos crear informas externos a Odoo?:",
-    "respuesta": "JasperReports.",
+    "pregunta": "¿Qué permite la extracción de información por pantalla en el propio ERP-CRM?",
+    "respuesta": "Presentar datos mediante vistas, listados o gráficos dinámicos",
     "opciones": [
-      "JasperReports.",
-      "JasperBuilder.",
-      "CrystalReports."
+      "Presentar datos mediante vistas, listados o gráficos dinámicos",
+      "Acceder directamente por SQL",
+      "Generar informes PDF"
     ]
   },
   {
-    "pregunta": "¿Qué nombre recibe el historial de las acciones eventos y errores de un programa?:",
-    "respuesta": "Log.",
+    "pregunta": "¿Qué registro de logs indica funcionamiento del servidor, peticiones y transacciones de datos?",
+    "respuesta": "El del servidor de datos o base de datos",
     "opciones": [
-      "Samples.",
-      "Outputs.",
-      "Log."
+      "El del servidor de datos o base de datos",
+      "El del navegador cliente",
+      "El del servidor de datos o base de datos"
     ]
   },
   {
-    "pregunta": "Una herramienta que tiene una versión community para la realización de cuadros de mando es:",
-    "respuesta": "Pentaho.",
+    "pregunta": "¿Qué se utiliza en Odoo para gestionar las tareas programadas relacionadas con el servidor Odoo?",
+    "respuesta": "Acciones planificadas (cron)",
     "opciones": [
-      "Pentaho.",
-      "QlikView.",
-      "Power BI."
+      "Procedimientos almacenados en PostgreSQL",
+      "Sentencias SQL DELETE",
+      "Acciones planificadas (cron)"
     ]
   },
   {
-    "pregunta": "¿Cuál es una ventaja clave de usar un ERP?",
-    "respuesta": "Mayor eficiencia y coherencia en la información.",
+    "pregunta": "¿Qué se utiliza en Odoo para visualizar información similar a formularios, pero que muestra datos almacenados y relacionados?",
+    "respuesta": "Vistas",
     "opciones": [
-      "Mayor desorganización en los procesos.",
-      "Mayor dificultad en la toma de decisiones.",
-      "Mayor eficiencia y coherencia en la información."
+      "Lenguaje QWeb",
+      "Vistas",
+      "Informes PDF"
     ]
   },
   {
-    "pregunta": "¿Qué hace el comando odoo-bin scaffold?:",
-    "respuesta": "Crea un nuevo módulo vacío.",
+    "pregunta": "¿Qué es un log en informática?",
+    "respuesta": "Un fichero plano almacenado en el servidor que registra acciones y errores",
     "opciones": [
-      "Crea un nuevo módulo vacío.",
-      "Prepara los archivos necesarios para personalizar Odoo.",
-      "Crea un nuevo modelo."
+      "Un fichero plano almacenado en el servidor que registra acciones y errores",
+      "Un fichero plano almacenado en el servidor que registra acciones y errores",
+      "Una herramienta de BI para generar dashboards"
     ]
   },
   {
-    "pregunta": "¿Qué es una biblioteca de componentes?",
-    "respuesta": "Un repositorio de componentes reutilizables que pueden ser usados en diferentes",
+    "pregunta": "¿Qué proceso se refiere a la configuración de ajustes para que el sistema de gestión se adecue a la empresa sin necesidad de programar código profundo?",
+    "respuesta": "Parametrización.",
     "opciones": [
-      "Un sistema operativo.",
-      "Un repositorio de componentes reutilizables que pueden ser usados en diferentes aplicaciones.",
-      "Un archivo de imagen."
+      "Parametrización.",
+      "Adaptación técnica.",
+      "Auditoría externa."
     ]
   },
   {
-    "pregunta": "En SCRUM, la recopilación de las especificaciones funcionales las tenemos en:",
-    "respuesta": "El Prodcut BackLog",
+    "pregunta": "¿Por qué es importante la coherencia de cálculos al usar procedimientos almacenados?",
+    "respuesta": "Porque centralizan la lógica de negocio directamente en el motor de base de datos.",
     "opciones": [
-      "El Prodcut BackLog",
-      "En las sesiones de retrospectiva",
-      "Los Sprints"
+      "Porque permiten que cada usuario haga sus propios cálculos manuales.",
+      "Porque los procedimientos no permiten usar filtros.",
+      "Porque centralizan la lógica de negocio directamente en el motor de base de datos."
     ]
   },
   {
-    "pregunta": "El comando de consola odoo-bin scaffold, ¿crea un nuevo módulo de Odoo?:",
-    "respuesta": "Si, crea un módulo vacío.",
+    "pregunta": "¿Qué funcionalidad de la interfaz de Odoo permite cambiar dinámicamente el tipo de medición de un informe gráfico?",
+    "respuesta": "El menú “Medidas”.",
     "opciones": [
-      "Si, crea un módulo vacío.",
-      "Si, lo crea con el mismo contenido que el último módulo instalado.",
-      "Es posible, depende del sistema operativo."
+      "El menú “Medidas”.",
+      "El botón de “Guardar”.",
+      "El modo desarrollador únicamente."
     ]
   },
   {
-    "pregunta": "La palabra reservada para definir una función en Python es:",
+    "pregunta": "¿Qué se consigue al añadir una “cabecera” personalizada en el diseño de un informe?",
+    "respuesta": "Identificar claramente el contenido y la procedencia de los datos.",
+    "opciones": [
+      "Reducir el tiempo de carga del servidor.",
+      "Identificar claramente el contenido y la procedencia de los datos.",
+      "Impedir que el informe pueda modificarse posteriormente."
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es el fin de realizar una “Prueba de Usabilidad”?",
+    "respuesta": "Comprobar si la interfaz es intuitiva y sencilla para reducir errores humanos.",
+    "opciones": [
+      "Comprobar si la interfaz es intuitiva y sencilla para reducir errores humanos.",
+      "Verificar que el software es compatible con tablets.",
+      "Saber cuántas personas pueden usar el sistema a la vez sin que se caiga."
+    ]
+  },
+  {
+    "pregunta": "En una consulta SQL para relacionar productos y proveedores, ¿qué tablas son esenciales en Odoo?",
+    "respuesta": "product_template, product_supplierinfo y res_partner.",
+    "opciones": [
+      "Únicamente la tabla de contabilidad general.",
+      "Solo la tabla de traducciones ir_translation.",
+      "product_template, product_supplierinfo y res_partner."
+    ]
+  },
+  {
+    "pregunta": "¿Qué utilidad ofrece la visualización de “tabla pivotante” en el análisis de información de ventas?",
+    "respuesta": "Permite añadir nuevos cálculos o dimensiones a partir del listado de información.",
+    "opciones": [
+      "Sirve para borrar pedidos duplicados automáticamente.",
+      "Es el único modo de exportar datos a formato PDF.",
+      "Permite añadir nuevos cálculos o dimensiones a partir del listado de información."
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es el propósito de documentar las operaciones de adaptación realizadas en las tablas?",
+    "respuesta": "Poder revertir o mantener los cambios en el futuro por otros técnicos.",
+    "opciones": [
+      "Poder revertir o mantener los cambios en el futuro por otros técnicos.",
+      "Ocupar el tiempo de los empleados.",
+      "Hacer que el manual de usuario sea más pesado."
+    ]
+  },
+  {
+    "pregunta": "¿Qué herramienta de Odoo permite añadir campos y reorganizar vistas de forma sencilla (low-code)?",
+    "respuesta": "Odoo Studio.",
+    "opciones": [
+      "Odoo Debugger.",
+      "Odoo Studio.",
+      "Odoo Configurator."
+    ]
+  },
+  {
+    "pregunta": "¿Qué verifican específicamente las “pruebas de integración” en un sistema ERP?",
+    "respuesta": "La comunicación entre módulos, como que una venta afecte automáticamente al inventario y contabilidad.",
+    "opciones": [
+      "Que el teclado del usuario funcione correctamente.",
+      "Que el programa se pueda instalar en menos de cinco minutos.",
+      "La comunicación entre módulos, como que una venta afecte automáticamente al inventario y contabilidad."
+    ]
+  },
+  {
+    "pregunta": "¿Qué comando SQL permite manejar valores nulos en las consultas de Odoo, seleccionando una traducción si el campo principal está vacío?",
+    "respuesta": "COALESCE.",
+    "opciones": [
+      "GROUP BY.",
+      "JOIN.",
+      "COALESCE."
+    ]
+  },
+  {
+    "pregunta": "¿Qué elemento de la interfaz de Odoo permite agrupar información de forma rápida mediante encabezados?",
+    "respuesta": "Agrupaciones.",
+    "opciones": [
+      "Filtrado manual.",
+      "Agrupaciones.",
+      "Exportación a Excel."
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es una característica fundamental de JasperSoft Studio al personalizar informes?",
+    "respuesta": "Proporciona recursos para introducir elementos visuales e indicadores.",
+    "opciones": [
+      "Proporciona recursos para introducir elementos visuales e indicadores.",
+      "Funciona sin necesidad de conectarse a la base de datos.",
+      "Solo permite escribir texto plano sin formato."
+    ]
+  },
+  {
+    "pregunta": "¿Cómo se realiza el \"debugging\" en el lado del cliente (navegador) en Odoo?",
+    "respuesta": "Utilizando Odoo Debug Manager o las herramientas de desarrollador del navegador.",
+    "opciones": [
+      "Usando el comando pip install.",
+      "Editando el fichero requirements.txt.",
+      "Utilizando Odoo Debug Manager o las herramientas de desarrollador del navegador."
+    ]
+  },
+  {
+    "pregunta": "¿Qué técnica de depuración \"arcaica\" permite saber por qué rama de un if-else transcurre la ejecución?",
+    "respuesta": "Imprimir texto por pantalla cada cierto número de instrucciones con print().",
+    "opciones": [
+      "Imprimir texto por pantalla cada cierto número de instrucciones con print().",
+      "Cambiar la versión de Python.",
+      "Instalar Docker Compose."
+    ]
+  },
+  {
+    "pregunta": "¿Qué información proporciona la sección \"contexto específico\" en una ventana de error de Odoo?",
+    "respuesta": "Información precisa sobre dónde se produce el fallo, como un fichero concreto.",
+    "opciones": [
+      "Información precisa sobre dónde se produce el fallo, como un fichero concreto.",
+      "La lista de usuarios conectados en ese momento.",
+      "El itinerario completo de errores del framework."
+    ]
+  },
+  {
+    "pregunta": "¿Qué relación se utiliza para vincular un registro de un modelo con un único registro de otro modelo (ej. Pedido a Cliente)?",
+    "respuesta": "Many2one.",
+    "opciones": [
+      "One2many.",
+      "Many2many.",
+      "Many2one."
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es la principal ventaja de utilizar un Depurador (pdb) frente a imprimir valores con print()?",
+    "respuesta": "Permite la ejecución interactiva del programa y la corrección de fallos más rápida.",
+    "opciones": [
+      "Acelera la velocidad de ejecución del código.",
+      "No requiere ningún tipo de conocimiento técnico.",
+      "Permite la ejecución interactiva del programa y la corrección de fallos más rápida."
+    ]
+  },
+  {
+    "pregunta": "Al documentar un informe de error, ¿cuál es el primer paso recomendado según la metodología de la unidad?",
+    "respuesta": "Abrir el contexto que indica el mensaje de error, generalmente un fichero específico.",
+    "opciones": [
+      "Borrar el módulo y no volverlo a usar.",
+      "Ignorar el mensaje y seguir actualizando el sistema.",
+      "Abrir el contexto que indica el mensaje de error, generalmente un fichero específico."
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es el valor predeterminado que devuelve una función en Python si no se especifica la sentencia return?",
+    "respuesta": "None.",
+    "opciones": [
+      "0.",
+      "False.",
+      "None."
+    ]
+  },
+  {
+    "pregunta": "¿Qué operadores lógicos existen en Python para realizar comparaciones booleanas?",
+    "respuesta": "not, and, or.",
+    "opciones": [
+      "&&, ||, !.",
+      "true, false, null.",
+      "not, and, or."
+    ]
+  },
+  {
+    "pregunta": "¿Qué sentencia se utiliza en Python para definir una función?",
     "respuesta": "def.",
     "opciones": [
-      "class.",
-      "function.",
-      "def."
+      "procedure.",
+      "def.",
+      "function."
     ]
   },
   {
-    "pregunta": "Cuando tenemos un mensaje de error debido al desarrollo, el fichero concreto donde se ha producido el error viene dado en:",
-    "respuesta": "El mensaje de contexto.",
+    "pregunta": "¿Qué herramienta permite ejecutar el código de forma interactiva para detectar fallos rápidamente?",
+    "respuesta": "El Depurador (Debugger).",
     "opciones": [
-      "El mensaje de contexto.",
-      "El fichero donde se produjo el error.",
-      "La vista misma de Odoo."
+      "La impresora de red.",
+      "El Depurador (Debugger).",
+      "El editor de texto simple."
     ]
   },
   {
-    "pregunta": "En una instalación de Odoo, PgAdmin sirve para …",
-    "respuesta": "Administrar una base de datos PostgreSQL.",
+    "pregunta": "¿Qué tipo de datos estáticos deben documentarse dentro de la estructura de carpetas de un módulo?",
+    "respuesta": "Recursos como imágenes, ficheros CSS o JavaScript.",
     "opciones": [
-      "Administrar la política de acceso de usuarios.",
-      "Administrar una base de datos PostgreSQL.",
-      "Administrar una base de datos en MySQL."
+      "Recursos como imágenes, ficheros CSS o JavaScript.",
+      "Solo los registros de ventas del año.",
+      "El nombre de los técnicos de soporte."
     ]
   },
   {
-    "pregunta": "¿Se puede usar Odoo con un servidor MongoDB?:",
-    "respuesta": "No, solo se puede usar PostgreSQL",
+    "pregunta": "¿Cuál es la importancia de documentar la trazabilidad en módulos para sectores como el agroalimentario?",
+    "respuesta": "Es una necesidad del sector que debe reflejarse en campos específicos del modelo de producto.",
     "opciones": [
-      "Usando el método swap",
-      "No, solo se puede usar PostgreSQL",
-      "Si, mediante el conector integrado"
+      "Es una necesidad del sector que debe reflejarse en campos específicos del modelo de producto.",
+      "Sirve para que los clientes elijan el color del embalaje.",
+      "Permite que el programa gaste menos memoria RAM."
     ]
   },
   {
-    "pregunta": "Desde el menú de ajustes de Odoo podemos …:",
-    "respuesta": "Activar el modo desarrollador.",
+    "pregunta": "¿Qué elemento XML raíz se utiliza para definir agregados y representaciones gráficas de datos?",
+    "respuesta": "<graph>.",
     "opciones": [
-      "Activar el modo desarrollador.",
-      "Acceder a las tablas de la base de datos.",
-      "Configurar el usuario root."
+      "<tree>.",
+      "<graph>.",
+      "<form>."
     ]
   },
   {
-    "pregunta": "¿Para qué no es necesario usar el menú técnico en Odoo?:",
-    "respuesta": "Para crear nuevos usuarios.",
+    "pregunta": "¿Cuál es la función del modo desarrollador en Odoo al trabajar con la base de datos?",
+    "respuesta": "Acceder a opciones técnicas, Modelos y Campos",
     "opciones": [
-      "Para crear nuevos usuarios.",
-      "Para definir nuevos modelos.",
-      "Para modificar las vistas."
+      "Acceder a opciones técnicas, Modelos y Campos",
+      "Ejecutar SQL directamente",
+      "Ejecutar SELECT de solo lectura"
     ]
   },
   {
-    "pregunta": "¿Cuál es la función del módulo \"Manufacturing\" en Odoo?",
-    "respuesta": "Planificar y controlar los procesos de producción.",
+    "pregunta": "¿Cuál es una recomendación técnica respecto a la Validación en formularios de Odoo?",
+    "respuesta": "Marcar campos críticos como requeridos y añadir restricciones según negocio",
     "opciones": [
-      "Administrar el sitio web de la empresa.",
-      "Gestionar la contabilidad de la empresa.",
-      "Planificar y controlar los procesos de producción."
+      "Usar Query Tool para validar",
+      "Marcar campos críticos como requeridos y añadir restricciones según negocio",
+      "No marcar campos críticos como requeridos"
     ]
   },
   {
-    "pregunta": "¿Con que lenguaje se programa Odoo?:",
+    "pregunta": "¿Qué permite la sentencia SQL UPDATE?",
+    "respuesta": "Modificar datos existentes en la base de datos",
+    "opciones": [
+      "Añadir nuevas filas de datos a la base de datos",
+      "Suprimir filas de la base de datos",
+      "Modificar datos existentes en la base de datos"
+    ]
+  },
+  {
+    "pregunta": "¿Qué permite Odoo con su base de datos centralizada respecto a los errores de código de referencia?",
+    "respuesta": "Reducir errores al usar todos los agentes el mismo código",
+    "opciones": [
+      "Aumentar la redundancia de datos",
+      "Reducir errores al usar todos los agentes el mismo código",
+      "Limitar la introducción de datos solo a administración"
+    ]
+  },
+  {
+    "pregunta": "¿Qué ocurre con los datos exportados desde un ERP-CRM a otro formato?",
+    "respuesta": "Quedan desconectados del ERP-CRM salvo nueva exportación",
+    "opciones": [
+      "Se actualizan automáticamente sin intervención del usuario",
+      "Quedan desconectados del ERP-CRM salvo nueva exportación",
+      "Permanecen conectados en tiempo real"
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es uno de los usuarios y permisos de acceso que se deben configurar para la seguridad de la base de datos?",
+    "respuesta": "Usuario de acceso a la BD del sistema de gestión empresarial",
+    "opciones": [
+      "Usuario de solo lectura en PostgreSQL",
+      "Usuario de acceso a la BD del sistema de gestión empresarial",
+      "Usuario admin de aplicación sin permisos"
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es la diferencia principal entre Vistas e Informes en Odoo?",
+    "respuesta": "Las vistas muestran información interactiva; los informes son documentos imprimibles",
+    "opciones": [
+      "Las vistas solo son tipo Kanban",
+      "Los informes no pueden incluir gráficos",
+      "Las vistas muestran información interactiva; los informes son documentos imprimibles"
+    ]
+  },
+  {
+    "pregunta": "¿Qué se recomienda crear en PostgreSQL para BI externo?",
+    "respuesta": "Rol de solo lectura (RO)",
+    "opciones": [
+      "Nueva instancia de Odoo",
+      "Rol de solo lectura (RO)",
+      "Rol de solo lectura (RO)"
+    ]
+  },
+  {
+    "pregunta": "¿Por qué quedan desconectados los datos exportados de Odoo?",
+    "respuesta": "Porque se convierten a Excel/CSV y no se actualizan solos",
+    "opciones": [
+      "Porque solo se exporta una línea",
+      "Porque su destino es PostgreSQL",
+      "Porque se convierten a Excel/CSV y no se actualizan solos"
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es el propósito de la cláusula SELECT en SQL?",
+    "respuesta": "Especificar los ítems de datos a recuperar",
+    "opciones": [
+      "Especificar los ítems de datos a recuperar",
+      "Modificar la estructura de una tabla",
+      "Finalizar la transacción actual"
+    ]
+  },
+  {
+    "pregunta": "¿Qué lenguaje se utiliza para realizar consultas sobre las tablas de una base de datos?",
+    "respuesta": "SQL",
+    "opciones": [
+      "HTML",
+      "SQL",
+      "Python"
+    ]
+  },
+  {
+    "pregunta": "¿Para qué se usa principalmente la exportación a PDF, Excel o Word?",
+    "respuesta": "Para toma de decisiones, control o documentación",
+    "opciones": [
+      "Para diseñar gráficos dinámicos",
+      "Para exportación a una segunda base de datos",
+      "Para toma de decisiones, control o documentación"
+    ]
+  },
+  {
+    "pregunta": "¿Qué cláusula SQL indica la tabla sobre la que se filtrará y extraerá la información?",
+    "respuesta": "FROM",
+    "opciones": [
+      "SELECT",
+      "WHERE",
+      "FROM"
+    ]
+  },
+  {
+    "pregunta": "¿Qué precaución principal se debe tener al implementar procedimientos almacenados personalizados en una base de datos?",
+    "respuesta": "Disponer de documentación clara que facilite su mantenimiento por otros administradores.",
+    "opciones": [
+      "Usarlos para todas las tareas, incluso las más sencillas.",
+      "No documentarlos para evitar que otros los modifiquen.",
+      "Disponer de documentación clara que facilite su mantenimiento por otros administradores."
+    ]
+  },
+  {
+    "pregunta": "¿Qué característica de las adaptaciones realizadas con Odoo Studio garantiza la estabilidad del sistema?",
+    "respuesta": "Que crean vistas heredadas seguras que sobreviven a las actualizaciones del software.",
+    "opciones": [
+      "Que crean vistas heredadas seguras que sobreviven a las actualizaciones del software.",
+      "Que solo funcionan en el modo administrador estricto.",
+      "Que borran las tablas antiguas para ahorrar espacio."
+    ]
+  },
+  {
+    "pregunta": "Al añadir un nuevo campo a un modelo en Odoo, ¿qué atributo XML se utiliza habitualmente para posicionar el elemento dentro de una vista heredada?",
+    "respuesta": "El comando xpath, que Studio genera automáticamente para ubicar el campo.",
+    "opciones": [
+      "El comando SELECT.",
+      "El comando xpath, que Studio genera automáticamente para ubicar el campo.",
+      "La etiqueta <html>."
+    ]
+  },
+  {
+    "pregunta": "¿Qué lenguaje, desarrollado a partir de XML, se utiliza en las vistas de Odoo para incorporar código propio?",
+    "respuesta": "QWeb.",
+    "opciones": [
+      "SQL.",
+      "Python.",
+      "QWeb."
+    ]
+  },
+  {
+    "pregunta": "¿Qué arquitectura técnica sustenta la definición de las vistas en Odoo 18?",
+    "respuesta": "Se definen en XML y son interpretadas por el framework de JavaScript.",
+    "opciones": [
+      "Se definen en archivos de texto plano sin estructura.",
+      "Se definen en XML y son interpretadas por el framework de JavaScript.",
+      "Se escriben directamente en el lenguaje de consulta SQL."
+    ]
+  },
+  {
+    "pregunta": "¿Qué directorio se utiliza habitualmente en una instalación estándar de Odoo para desplegar los módulos desarrollados?",
+    "respuesta": "addons.",
+    "opciones": [
+      "/tmp.",
+      "addons.",
+      "/system/root."
+    ]
+  },
+  {
+    "pregunta": "¿Cómo se describe la tipología de Python como lenguaje de programación?",
+    "respuesta": "Lenguaje de alto nivel, interpretado y orientado a objetos.",
+    "opciones": [
+      "Lenguaje de alto nivel, interpretado y orientado a objetos.",
+      "Lenguaje de marcas especializado en bases de datos.",
+      "Lenguaje de bajo nivel y compilado."
+    ]
+  },
+  {
+    "pregunta": "¿Por qué es necesario documentar el uso de procedimientos almacenados en la base de datos?",
+    "respuesta": "Porque su aplicación añade una capa de complejidad técnica significativa.",
+    "opciones": [
+      "Porque su aplicación añade una capa de complejidad técnica significativa.",
+      "Porque el motor de base de datos los borra si no tienen descripción.",
+      "Para que los usuarios finales puedan programar sus propios informes."
+    ]
+  },
+  {
+    "pregunta": "¿Qué representa un \"Sprint\" en la planificación documentada de un proyecto de desarrollo?",
+    "respuesta": "Un ciclo corto de desarrollo (semanas) que permite validar partes del sistema.",
+    "opciones": [
+      "El proceso de borrado de errores de la base de datos.",
+      "Un ciclo corto de desarrollo (semanas) que permite validar partes del sistema.",
+      "Una fase de entrega final que dura varios meses."
+    ]
+  },
+  {
+    "pregunta": "¿Qué comando se utiliza para crear la estructura básica de un nuevo módulo en Odoo?",
+    "respuesta": "odoo-bin scaffold.",
+    "opciones": [
+      "odoo-bin install.",
+      "odoo-bin scaffold.",
+      "odoo-bin start."
+    ]
+  },
+  {
+    "pregunta": "¿Qué pasos seguir para exportar a Excel/CSV en Odoo?",
+    "respuesta": "Seleccionar líneas y usar la acción Exportar",
+    "opciones": [
+      "Configurar servidor SMTP",
+      "Activar modo desarrollador y ejecutar SQL",
+      "Seleccionar líneas y usar la acción Exportar"
+    ]
+  },
+  {
+    "pregunta": "¿Qué es el lenguaje QWeb utilizado en Odoo?",
+    "respuesta": "Un lenguaje que combina HTML, tags y Python",
+    "opciones": [
+      "Una herramienta externa de BI",
+      "Un SGBD relacional",
+      "Un lenguaje que combina HTML, tags y Python"
+    ]
+  },
+  {
+    "pregunta": "¿Qué mecanismo usa un ERP como Odoo para definir restricciones y pasos al introducir información?",
+    "respuesta": "Los procesos relacionados",
+    "opciones": [
+      "La impresión de informes",
+      "Los procesos relacionados",
+      "La exportación a PDF"
+    ]
+  },
+  {
+    "pregunta": "¿Qué lenguaje combina HTML, tags y Python y se utiliza para las vistas de informes en Odoo?",
+    "respuesta": "QWeb",
+    "opciones": [
+      "JDBC",
+      "QWeb",
+      "SQL"
+    ]
+  },
+  {
+    "pregunta": "¿Qué objetivo tiene un generador de informes externo?",
+    "respuesta": "Generar y servir informes cliente-servidor (Crystal Reports)",
+    "opciones": [
+      "Sustituir el servidor de aplicaciones",
+      "Generar y servir informes cliente-servidor (Crystal Reports)",
+      "Usar la API ORM de Odoo"
+    ]
+  },
+  {
+    "pregunta": "¿Qué se utiliza para registrar la fecha y hora, el proceso y el tipo o categoría de un evento?",
+    "respuesta": "Un registro de log",
+    "opciones": [
+      "Un registro de log",
+      "Un formulario de datos",
+      "Un registro de log"
+    ]
+  },
+  {
+    "pregunta": "Si una empresa de gimnasios necesita registrar el nombre del entrenador de cada cliente, ¿qué debe adaptar?",
+    "respuesta": "El modelo de clientes incorporando un campo específico para el entrenador.",
+    "opciones": [
+      "Únicamente el informe de ventas final.",
+      "El modelo de proveedores.",
+      "El modelo de clientes incorporando un campo específico para el entrenador."
+    ]
+  },
+  {
+    "pregunta": "¿Qué modo se debe activar en Odoo para poder acceder a la modificación de tablas y campos?",
+    "respuesta": "Modo desarrollador.",
+    "opciones": [
+      "Modo administrador.",
+      "Modo desarrollador.",
+      "Modo usuario avanzado."
+    ]
+  },
+  {
+    "pregunta": "Al adaptar un formulario, ¿dentro de qué etiqueta se debe incluir un nuevo campo para que aparezca organizado visualmente bajo un título?",
+    "respuesta": "<group>.",
+    "opciones": [
+      "<group>.",
+      "<header>.",
+      "<field>."
+    ]
+  },
+  {
+    "pregunta": "¿Qué herramienta del framework de Odoo se prioriza actualmente para la lógica de negocio frente a los procedimientos SQL?",
+    "respuesta": "Módulos en Python/ORM, campos compute y acciones programadas.",
+    "opciones": [
+      "Solo archivos XML estáticos.",
+      "Módulos en Python/ORM, campos compute y acciones programadas.",
+      "Únicamente fórmulas de hojas de cálculo integradas."
+    ]
+  },
+  {
+    "pregunta": "¿Qué se debe definir en JasperSoft Studio para que el informe pueda extraer datos reales?",
+    "respuesta": "La conexión sobre la base de datos.",
+    "opciones": [
+      "Una contraseña de administrador.",
+      "La conexión sobre la base de datos.",
+      "Un tema visual."
+    ]
+  },
+  {
+    "pregunta": "¿Qué tipo de prueba es vital para asegurar el correcto flujo de información entre el Almacén y la Contabilidad?",
+    "respuesta": "Pruebas de integración.",
+    "opciones": [
+      "Pruebas de compatibilidad.",
+      "Pruebas de seguridad.",
+      "Pruebas de integración."
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es la función del framework OWL (Odoo Web Library) en las versiones recientes de Odoo?",
+    "respuesta": "Construir interfaces reactivas y modernas basadas en JavaScript.",
+    "opciones": [
+      "Generar exclusivamente informes estáticos en formato PDF.",
+      "Gestionar la persistencia de datos en PostgreSQL.",
+      "Construir interfaces reactivas y modernas basadas en JavaScript."
+    ]
+  },
+  {
+    "pregunta": "¿Qué elemento se utiliza en el código Python para incluir comentarios que faciliten la comprensión del mismo?",
+    "respuesta": "El símbolo #.",
+    "opciones": [
+      "El símbolo #.",
+      "Etiquetas <comment>.",
+      "No se pueden poner comentarios en Python."
+    ]
+  },
+  {
+    "pregunta": "¿Qué palabra clave se utiliza en una función de Python para devolver un resultado?",
+    "respuesta": "return.",
+    "opciones": [
+      "result.",
+      "send.",
+      "return."
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es el propósito del atributo \"required\" en la definición de un campo de un modelo?",
+    "respuesta": "Define si el campo puede estar vacío o no.",
+    "opciones": [
+      "Define que el campo siempre debe tener un color rojo.",
+      "Define si el campo puede estar vacío o no.",
+      "Indica que el campo es solo de lectura."
+    ]
+  },
+  {
+    "pregunta": "¿Qué sentencias se utilizan en Python para implementar estructuras de control de flujo?",
+    "respuesta": "Estructuras como if-else, for y while.",
+    "opciones": [
+      "SELECT, FROM y WHERE.",
+      "Estructuras como if-else, for y while.",
+      "Únicamente etiquetas <page> y <group>."
+    ]
+  },
+  {
+    "pregunta": "En el desarrollo de módulos de Odoo, ¿dónde se define la lógica de negocio?",
+    "respuesta": "En clases de Python.",
+    "opciones": [
+      "En clases de Python.",
+      "En ficheros CSS.",
+      "En plantillas HTML puras."
+    ]
+  },
+  {
+    "pregunta": "¿Cómo se define la jerarquía de navegación para que un usuario acceda a un nuevo módulo?",
+    "respuesta": "Mediante el uso de la etiqueta <menuitem> especificando su padre y acción.",
+    "opciones": [
+      "Modificando el código del servidor PostgreSQL directamente.",
+      "Mediante el uso de la etiqueta <menuitem> especificando su padre y acción.",
+      "Instalando un plugin de Chrome especializado."
+    ]
+  },
+  {
+    "pregunta": "¿Qué diferencia existe entre los tipos de datos mutables e inmutables en Python?",
+    "respuesta": "El contenido de los mutables se puede modificar; el de los inmutables no puede alterarse.",
+    "opciones": [
+      "Los mutables son solo números y los inmutables son solo textos.",
+      "El contenido de los mutables se puede modificar; el de los inmutables no puede alterarse.",
+      "Los mutables no pueden alterarse; los inmutables sí."
+    ]
+  },
+  {
+    "pregunta": "¿Qué permite el módulo Helpdesk de Odoo respecto a las incidencias?",
+    "respuesta": "Gestionar tickets, equipos y base de conocimiento",
+    "opciones": [
+      "Exportar datos a PDF",
+      "Sustituir el servidor PostgreSQL",
+      "Gestionar tickets, equipos y base de conocimiento"
+    ]
+  },
+  {
+    "pregunta": "Si se activa el modo desarrollador, ¿qué opción se utiliza para editar o crear nuevos campos en un modelo?",
+    "respuesta": "La opción “Editar” dentro de Modelos / Equipo de ventas",
+    "opciones": [
+      "La herramienta QueryTool de pgAdmin",
+      "La opción “Editar” dentro de Modelos / Equipo de ventas",
+      "Acciones planificadas"
+    ]
+  },
+  {
+    "pregunta": "En Odoo, ¿qué tipo de vista agrega datos para análisis y permite crear cuadros de mando al insertarla en una Spreadsheet?",
+    "respuesta": "Vistas Pivot",
+    "opciones": [
+      "Vistas Kanban",
+      "Vistas Pivot",
+      "Vistas de calendario"
+    ]
+  },
+  {
+    "pregunta": "¿Qué atributo XML debe usarse si se desea ocultar la etiqueta automática de un campo en la interfaz?",
+    "respuesta": "nolabel=\"1\".",
+    "opciones": [
+      "placeholder.",
+      "string.",
+      "nolabel=\"1\"."
+    ]
+  },
+  {
+    "pregunta": "¿Qué utilidad técnica tiene el encabezado de una tabla en la vista de pedidos de venta?",
+    "respuesta": "Permite realizar una ordenación rápida de la información.",
+    "opciones": [
+      "Bloquea el acceso a usuarios no autorizados.",
+      "Sirve para cambiar el color de la fuente.",
+      "Permite realizar una ordenación rápida de la información."
+    ]
+  },
+  {
+    "pregunta": "¿Por qué se considera de “vital importancia” conocer la actividad y los procesos de una empresa antes de la implantación?",
+    "respuesta": "Para asegurar que el software de gestión se implante correctamente según las necesidades reales de la organización.",
+    "opciones": [
+      "Para limitar el número de empleados que pueden acceder al sistema.",
+      "Para poder elegir el color de la interfaz que más guste a los dueños.",
+      "Para asegurar que el software de gestión se implante correctamente según las necesidades reales de la organización."
+    ]
+  },
+  {
+    "pregunta": "¿Qué permite el lenguaje QWeb dentro de la edición de vistas de Odoo?",
+    "respuesta": "Incorporar código HTML y elementos propios de Odoo para personalizar la interfaz.",
+    "opciones": [
+      "Traducir el programa a idiomas que no existen.",
+      "Incorporar código HTML y elementos propios de Odoo para personalizar la interfaz.",
+      "Eliminar la base de datos de forma segura."
+    ]
+  },
+  {
+    "pregunta": "¿Para qué se utilizaría un procedimiento almacenado en un contexto VIP?",
+    "respuesta": "Para calcular automáticamente un descuento según el volumen de compra.",
+    "opciones": [
+      "Para calcular automáticamente un descuento según el volumen de compra.",
+      "Para enviar felicitaciones de cumpleaños.",
+      "Para cambiar el nombre del cliente."
+    ]
+  },
+  {
+    "pregunta": "¿Qué prueba mide la respuesta del sistema ante grandes volúmenes de datos o múltiples usuarios concurrentes?",
+    "respuesta": "Pruebas de rendimiento.",
+    "opciones": [
+      "Pruebas de rendimiento.",
+      "Pruebas de usabilidad.",
+      "Pruebas funcionales básicas."
+    ]
+  },
+  {
+    "pregunta": "¿Qué lenguaje de plantillas utiliza Odoo para combinar código HTML con lógica propia en la creación de interfaces?",
+    "respuesta": "QWeb.",
+    "opciones": [
+      "CSS3.",
+      "QWeb.",
+      "Python puro."
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es el primer paso para modificar los campos de un formulario específico en Odoo?",
+    "respuesta": "Acceder a través del mismo formulario que se quiere modificar.",
+    "opciones": [
+      "Acceder a través del mismo formulario que se quiere modificar.",
+      "Reiniciar el servidor de base de datos.",
+      "Desinstalar el módulo."
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es el propósito técnico de los programas pasarela o \"batch inputs\" documentados?",
+    "respuesta": "Realizar extracción e importación automática de datos entre sistemas de gestión.",
+    "opciones": [
+      "Realizar extracción e importación automática de datos entre sistemas de gestión.",
+      "Eliminar los manuales de usuario antiguos.",
+      "Cambiar la contraseña del administrador automáticamente."
+    ]
+  },
+  {
+    "pregunta": "En la documentación de Odoo, ¿qué diferencia a un \"Procedimiento\" de una \"Función\" en Python?",
+    "respuesta": "El procedimiento devuelve None por no especificar return, mientras que la función devuelve un resultado.",
+    "opciones": [
+      "No existe diferencia técnica entre ambos términos.",
+      "El procedimiento devuelve None por no especificar return, mientras que la función devuelve un resultado.",
+      "El procedimiento usa SQL y la función usa Python."
+    ]
+  },
+  {
+    "pregunta": "¿Qué extensión de navegador se menciona para facilitar el proceso de depuración en Odoo?",
+    "respuesta": "Odoo Debug Manager.",
+    "opciones": [
+      "SQL Editor.",
+      "Python extension.",
+      "Odoo Debug Manager."
+    ]
+  },
+  {
+    "pregunta": "¿Qué función cumple el fichero manifest.py en la integración de un módulo?",
+    "respuesta": "Define metadatos como el nombre, versión y la lista de ficheros XML a cargar.",
+    "opciones": [
+      "Define metadatos como el nombre, versión y la lista de ficheros XML a cargar.",
+      "Contiene el código de las funciones Python.",
+      "Almacena los datos reales de los clientes de forma temporal."
+    ]
+  },
+  {
+    "pregunta": "¿Qué se define en el modelo ir.model.access para integrar la seguridad del nuevo componente?",
+    "respuesta": "Los permisos de lectura, escritura, creación y desconexión por grupos de usuarios.",
+    "opciones": [
+      "La velocidad de descarga de los informes.",
+      "Los colores de los botones del formulario.",
+      "Los permisos de lectura, escritura, creación y desconexión por grupos de usuarios."
+    ]
+  },
+  {
+    "pregunta": "¿Qué técnica permite optimizar el rendimiento de consultas en grandes volúmenes de información?",
+    "respuesta": "Almacenar en caché datos que no cambian durante la sesión de trabajo.",
+    "opciones": [
+      "Borrar los procedimientos almacenados de la base de datos.",
+      "Almacenar en caché datos que no cambian durante la sesión de trabajo.",
+      "Realizar el máximo número de consultas individuales posibles."
+    ]
+  },
+  {
+    "pregunta": "En PostgreSQL, ¿qué parámetro de configuración en postgresql.conf define qué información aparece al inicio de cada línea de log (ej. PID, usuario, BD)?",
+    "respuesta": "log_line_prefix",
+    "opciones": [
+      "log_line_prefix",
+      "log_directory",
+      "log_min_messages"
+    ]
+  },
+  {
+    "pregunta": "¿Qué herramienta de BI de Microsoft crea paneles y conecta con PostgreSQL?",
+    "respuesta": "Power BI",
+    "opciones": [
+      "Apache Superset",
+      "Power BI",
+      "Metabase"
+    ]
+  },
+  {
+    "pregunta": "¿Qué debe haber para que el técnico pueda recoger, evaluar y documentar una incidencia?",
+    "respuesta": "Un sistema de helpdesk",
+    "opciones": [
+      "Un sistema de helpdesk",
+      "Definir log_min_messages = warning",
+      "Un sistema de helpdesk"
+    ]
+  },
+  {
+    "pregunta": "¿Qué tipo de registro de logs se refiere a los eventos, errores y otros comportamientos de la aplicación?",
+    "respuesta": "Historial o log",
+    "opciones": [
+      "Historial o log",
+      "Sentencia SQL",
+      "csvlog"
+    ]
+  },
+  {
+    "pregunta": "¿Para qué se utiliza la creación de “grupos” (ej. por proveedor) en el diseño de un informe?",
+    "respuesta": "Para organizar y agrupar la información de forma jerárquica y legible.",
+    "opciones": [
+      "Para ocultar los precios de ciertos productos.",
+      "Para organizar y agrupar la información de forma jerárquica y legible.",
+      "Para que el informe ocupe más páginas."
+    ]
+  },
+  {
+    "pregunta": "¿Qué tipo de proceso requiere normalmente de recursos específicos como desarrolladores de software por ser un cambio más profundo?",
+    "respuesta": "Adaptación.",
+    "opciones": [
+      "Adaptación.",
+      "Instalación estándar.",
+      "Parametrización básica."
+    ]
+  },
+  {
+    "pregunta": "¿Cómo se incorpora de forma permanente un nuevo indicador de ventas al Cuadro de Mando del usuario?",
+    "respuesta": "Mediante la opción “Añadir a mi tablero” en el menú de Favoritos.",
+    "opciones": [
+      "Mediante la opción “Añadir a mi tablero” en el menú de Favoritos.",
+      "Reinstalando el sistema completo.",
+      "No se pueden añadir nuevos indicadores manualmente."
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es la función del objeto ir.actions.act_window en Odoo?",
+    "respuesta": "Incluir una nueva acción en la base de datos, como abrir un formulario o listado.",
+    "opciones": [
+      "Cerrar todas las ventanas del navegador.",
+      "Realizar una copia de seguridad diaria.",
+      "Incluir una nueva acción en la base de datos, como abrir un formulario o listado."
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es una característica fundamental de la portabilidad en Python?",
+    "respuesta": "Es posible ejecutarlo en diversas plataformas como Linux, Windows o macOS.",
+    "opciones": [
+      "Es posible ejecutarlo en diversas plataformas como Linux, Windows o macOS.",
+      "Solo funciona en servidores Linux.",
+      "Requiere una arquitectura de hardware específica."
+    ]
+  },
+  {
+    "pregunta": "¿Cómo se clasifican los tipos de datos en Python según la posibilidad de modificar su contenido?",
+    "respuesta": "Mutables e Inmutables.",
+    "opciones": [
+      "Estáticos y Dinámicos.",
+      "Mutables e Inmutables.",
+      "Simples y Complejos."
+    ]
+  },
+  {
+    "pregunta": "¿Qué elemento XML permite cargar datos de ejemplo al instalar un componente?",
+    "respuesta": "<record> con el atributo model y campos definidos.",
+    "opciones": [
+      "<record> con el atributo model y campos definidos.",
+      "<form> con datos estáticos.",
+      "<insert>."
+    ]
+  },
+  {
+    "pregunta": "¿Qué elemento XML se utiliza para insertar o actualizar registros de datos en la base de datos a través de un módulo?",
+    "respuesta": "<record>.",
+    "opciones": [
+      "<record>.",
+      "<data>.",
+      "<insert>."
+    ]
+  },
+  {
+    "pregunta": "¿Qué tipo de información se define dentro del fichero init.py de un módulo de Odoo?",
+    "respuesta": "Las importaciones de paquetes o submódulos de Python.",
+    "opciones": [
+      "Las importaciones de paquetes o submódulos de Python.",
+      "Los datos de contacto del cliente.",
+      "El diseño visual del dashboard."
+    ]
+  },
+  {
+    "pregunta": "¿Qué alternativa a phpPgAdmin se menciona como herramienta gráfica oficial para PostgreSQL?",
+    "respuesta": "pgAdmin 4",
+    "opciones": [
+      "DBeaver",
+      "pgAdmin 4",
+      "pgAdmin 4"
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es uno de los campos disponibles al configurar la exportación de información desde Odoo?",
+    "respuesta": "La referencia del pedido",
+    "opciones": [
+      "La referencia del pedido",
+      "La versión del SGBD",
+      "El usuario y contraseña del administrador"
+    ]
+  },
+  {
+    "pregunta": "¿Qué tipo de exportación consiste en extraer información a una segunda base de datos usada por otro sistema?",
+    "respuesta": "Exportación a sistemas específicos",
+    "opciones": [
+      "Exportación a sistemas específicos",
+      "Exportación a CSV",
+      "Exportación a PDF"
+    ]
+  },
+  {
+    "pregunta": "¿Qué permite modificar el diseñador integrado en el módulo de ventas de Odoo?",
+    "respuesta": "El diseño del presupuesto",
+    "opciones": [
+      "La tabla res_partner",
+      "El diseño del presupuesto",
+      "Los permisos del usuario"
+    ]
+  },
+  {
+    "pregunta": "¿Qué se utiliza para registrar acciones, errores y eventos en informática?",
+    "respuesta": "Logs",
+    "opciones": [
+      "Vistas Pivot",
+      "Logs",
+      "Procedimientos almacenados"
+    ]
+  },
+  {
+    "pregunta": "En una consulta SQL, ¿qué tablas son fundamentales para relacionar productos con sus precios de compra?",
+    "respuesta": "product_template y product_supplierinfo.",
+    "opciones": [
+      "Solo la tabla res_partner.",
+      "res_company y ir_translation.",
+      "product_template y product_supplierinfo."
+    ]
+  },
+  {
+    "pregunta": "Al adaptar un formulario, ¿qué atributo del campo <field> se usa para mostrar un texto informativo cuando el campo está vacío?",
+    "respuesta": "placeholder.",
+    "opciones": [
+      "placeholder.",
+      "nolabel.",
+      "name."
+    ]
+  },
+  {
+    "pregunta": "¿Qué elemento de la interfaz se utiliza en Odoo para organizar campos dentro de una “página” del formulario?",
+    "respuesta": "La etiqueta <group>.",
+    "opciones": [
+      "La etiqueta <group>.",
+      "La etiqueta <button>.",
+      "La etiqueta <select>."
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es el objetivo principal de realizar pruebas antes de poner el sistema en producción?",
+    "respuesta": "Asegurar que el sistema responde a las necesidades y no aparecen errores.",
+    "opciones": [
+      "Gastar el presupuesto del proyecto.",
+      "Que los usuarios se acostumbren al sistema.",
+      "Asegurar que el sistema responde a las necesidades y no aparecen errores."
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es la diferencia fundamental entre la “parametrización” y la “adaptación” técnica de un sistema ERP?",
+    "respuesta": "La parametrización ajusta configuraciones existentes; la adaptación requiere recursos específicos como desarrolladores para cambios profundos.",
+    "opciones": [
+      "La parametrización borra datos; la adaptación solo crea nuevas tablas.",
+      "No hay diferencia, ambos términos se refieren a la instalación inicial del software.",
+      "La parametrización ajusta configuraciones existentes; la adaptación requiere recursos específicos como desarrolladores para cambios profundos."
+    ]
+  },
+  {
+    "pregunta": "En el software Odoo, ¿cómo se denominan técnicamente las tablas de la base de datos?",
+    "respuesta": "Modelos.",
+    "opciones": [
+      "Entidades.",
+      "Ficheros.",
+      "Modelos."
+    ]
+  },
+  {
+    "pregunta": "¿Qué tipo de organización, a pesar de no tener fines lucrativos, suele requerir un software de gestión para sus procesos económicos?",
+    "respuesta": "Las ONG o empresas sociales.",
+    "opciones": [
+      "Solo las multinacionales tecnológicas.",
+      "Las ONG o empresas sociales.",
+      "Únicamente las startups en fase inicial."
+    ]
+  },
+  {
+    "pregunta": "¿Qué sucede técnicamente cuando una función en Python no incluye una instrucción return?",
+    "respuesta": "La función devuelve automáticamente la constante None.",
+    "opciones": [
+      "Devuelve el valor de la última variable declarada.",
+      "La función devuelve automáticamente la constante None.",
+      "El programa se detiene con un error de ejecución."
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es el principal inconveniente de utilizar un Depurador (Debugger) frente a la función print()?",
+    "respuesta": "Que ralentiza la ejecución del código.",
+    "opciones": [
+      "Que borra el código fuente accidentalmente.",
+      "Que ralentiza la ejecución del código.",
+      "Que no detecta errores lógicos."
+    ]
+  },
+  {
+    "pregunta": "¿Para qué se utilizan los procedimientos almacenados de PostgreSQL en una instalación de Odoo?",
+    "respuesta": "Para la integridad y rendimiento (índices, constraints)",
+    "opciones": [
+      "Para la integridad y rendimiento (índices, constraints)",
+      "Para manipulación directa de la interfaz",
+      "Para tareas programadas desde Acciones planificadas"
+    ]
+  },
+  {
+    "pregunta": "¿Qué permite el diseñador integrado en Odoo para documentos como presupuestos o facturas?",
+    "respuesta": "Cambiar diseño del detalle, logo, tipografía y colores",
+    "opciones": [
+      "Cambiar diseño del detalle, logo, tipografía y colores",
+      "Modificar directamente la consulta SQL",
+      "Eliminar campos requeridos"
+    ]
+  },
+  {
+    "pregunta": "¿Qué componente de un formulario en Odoo se utiliza para representar el nombre de la compañía o cliente?",
+    "respuesta": "Identificador único del maestro",
+    "opciones": [
+      "Información auxiliar",
+      "Identificador único del maestro",
+      "Cabecera de información"
+    ]
+  },
+  {
+    "pregunta": "¿Qué tipo de informe en Odoo permite definir documentos imprimibles o descargables?",
+    "respuesta": "Informes (report)",
+    "opciones": [
+      "Vistas Kanban",
+      "Vistas Pivot",
+      "Informes (report)"
+    ]
+  },
+  {
+    "pregunta": "¿Qué tipo de prueba valida que un usuario solo acceda a la información permitida según su perfil?",
+    "respuesta": "Pruebas de seguridad.",
+    "opciones": [
+      "Pruebas de compatibilidad.",
+      "Pruebas de rendimiento.",
+      "Pruebas de seguridad."
+    ]
+  },
+  {
+    "pregunta": "¿Qué son los procedimientos almacenados?",
+    "respuesta": "Bloques de código SQL que se ejecutan en el propio motor de base de datos.",
+    "opciones": [
+      "Manuales guardados en la oficina.",
+      "Bloques de código SQL que se ejecutan en el propio motor de base de datos.",
+      "Copias de seguridad de los correos electrónicos."
+    ]
+  },
+  {
+    "pregunta": "¿Qué herramienta de Odoo ayuda a documentar de forma automática los cambios en las vistas al usar Studio?",
+    "respuesta": "El generador automático de xpath.",
+    "opciones": [
+      "El generador automático de xpath.",
+      "No existe ninguna herramienta automática.",
+      "El sistema de correos internos."
+    ]
+  },
+  {
+    "pregunta": "¿Qué se debe hacer con cada prueba realizada durante la implantación?",
+    "respuesta": "Documentarla con evidencias como capturas, logs o métricas.",
+    "opciones": [
+      "Olvidarla si ha salido bien.",
+      "Comentarla verbalmente en la reunión.",
+      "Documentarla con evidencias como capturas, logs o métricas."
+    ]
+  },
+  {
+    "pregunta": "En el diseño de un informe, ¿qué permite organizar los productos según su fabricante o suministrador?",
+    "respuesta": "La creación de grupos (ej. grupo de proveedor).",
+    "opciones": [
+      "El pie de página.",
+      "El título del informe.",
+      "La creación de grupos (ej. grupo de proveedor)."
+    ]
+  },
+  {
+    "pregunta": "¿Qué atributo de un campo en un modelo de Odoo se utiliza para crear un índice en la base de datos?",
+    "respuesta": "Index.",
+    "opciones": [
+      "Index.",
+      "Help.",
+      "String."
+    ]
+  },
+  {
+    "pregunta": "¿Qué ventaja técnica ofrece el uso de OWL en el desarrollo de vistas?",
+    "respuesta": "Permite construir interfaces reactivas.",
+    "opciones": [
+      "Permite construir interfaces reactivas.",
+      "Hace que la base de datos PostgreSQL sea más rápida.",
+      "Reduce el tamaño de las imágenes del servidor."
+    ]
+  },
+  {
+    "pregunta": "¿Qué etiqueta XML raíz debe utilizarse para crear un formulario que permita la inserción de nuevos registros?",
+    "respuesta": "<form>.",
+    "opciones": [
+      "<graph>.",
+      "<tree>.",
+      "<form>."
+    ]
+  },
+  {
+    "pregunta": "¿Por qué es fundamental documentar los procedimientos almacenados y componentes personalizados?",
+    "respuesta": "Para que otros desarrolladores o administradores puedan mantenerlos en el futuro.",
+    "opciones": [
+      "Es un trámite innecesario si el código funciona.",
+      "Para que el programa ocupe más espacio en disco.",
+      "Para que otros desarrolladores o administradores puedan mantenerlos en el futuro."
+    ]
+  },
+  {
+    "pregunta": "¿Qué lenguaje de programación utiliza Odoo para el desarrollo de la lógica computacional del sistema?",
     "respuesta": "Python.",
     "opciones": [
-      "Python.",
+      "JavaScript.",
+      "HTML.",
+      "Python."
+    ]
+  },
+  {
+    "pregunta": "¿Qué elemento de la arquitectura SCRUM sirve como una \"lista viva\" de requisitos que documenta lo que el cliente valora?",
+    "respuesta": "Product Backlog.",
+    "opciones": [
+      "Burndown Chart.",
+      "Product Backlog.",
+      "Sprints."
+    ]
+  },
+  {
+    "pregunta": "¿Qué herramienta de Python se utiliza para instalar paquetes requeridos a partir del fichero requirements.txt?",
+    "respuesta": "pip.",
+    "opciones": [
+      "scaffold.",
+      "Docker.",
+      "pip."
+    ]
+  },
+  {
+    "pregunta": "¿Qué atributo de campo en un modelo permite añadir una descripción informativa para el usuario final?",
+    "respuesta": "Help.",
+    "opciones": [
+      "Index.",
+      "Help.",
+      "Required."
+    ]
+  },
+  {
+    "pregunta": "¿Qué se gestiona desde los módulos respectivos y se usa en los QWeb Reports para generar documentos?",
+    "respuesta": "Numeración y plantillas de documentos (ventas, compras, facturas)",
+    "opciones": [
+      "Numeración y plantillas de documentos (ventas, compras, facturas)",
+      "Bases de datos externas",
+      "Filtros y agrupaciones"
+    ]
+  },
+  {
+    "pregunta": "Uno de los objetivos de la fase de Búsqueda de Información en Odoo es...",
+    "respuesta": "Realizar búsquedas en cualquier campo con el buscador",
+    "opciones": [
+      "Realizar búsquedas en cualquier campo con el buscador",
+      "Modificar la estructura de tablas",
+      "Exportar siempre a PDF"
+    ]
+  },
+  {
+    "pregunta": "¿Qué sentencia SQL se debe evitar utilizar directamente sobre la base de datos de Odoo para extracción analítica?",
+    "respuesta": "UPDATE/DELETE",
+    "opciones": [
+      "UPDATE/DELETE",
+      "UPDATE/DELETE",
+      "CREATE VIEW"
+    ]
+  },
+  {
+    "pregunta": "¿A qué formato pueden exportarse muchos listados en Odoo?",
+    "respuesta": "Excel",
+    "opciones": [
+      "CSV",
+      "Excel",
+      "JPG"
+    ]
+  },
+  {
+    "pregunta": "¿Qué es Jasper Reports?",
+    "respuesta": "Una herramienta con versión community para informes",
+    "opciones": [
+      "Un SGBD propietario",
+      "Una herramienta con versión community para informes",
+      "Un lenguaje de programación"
+    ]
+  },
+  {
+    "pregunta": "¿Qué modelo de arquitectura de BI integra ERP, CRM y e-commerce en un repositorio central?",
+    "respuesta": "Data Warehouse",
+    "opciones": [
+      "Acceso directo (Live)",
+      "Data Warehouse",
+      "Data Mart"
+    ]
+  },
+  {
+    "pregunta": "¿Qué nivel de log indica un tipo o categoría de registro que no es INFO o WARN?",
+    "respuesta": "ERROR (ERR)",
+    "opciones": [
+      "DETALLE",
+      "EVENTO",
+      "ERROR (ERR)"
+    ]
+  },
+  {
+    "pregunta": "¿Qué permite un procedimiento almacenado respecto a la carga de trabajo del servidor?",
+    "respuesta": "Ejecutar instrucciones de forma conjunta y reducir el tiempo de respuesta al estar precompilado.",
+    "opciones": [
+      "Ejecutar instrucciones de forma conjunta y reducir el tiempo de respuesta al estar precompilado.",
+      "Aumentar el tiempo de espera para el usuario.",
+      "Borrar la lógica del ERP para que sea más ligero."
+    ]
+  },
+  {
+    "pregunta": "En un entorno de teletrabajo, ¿qué tipo de prueba adquiere mayor relevancia?",
+    "respuesta": "Pruebas de compatibilidad en distintos navegadores, dispositivos y entornos remotos.",
+    "opciones": [
+      "Pruebas de compatibilidad en distintos navegadores, dispositivos y entornos remotos.",
+      "Pruebas de impresión en papel continuo.",
+      "Pruebas de diseño de logotipos corporativos."
+    ]
+  },
+  {
+    "pregunta": "¿Qué riesgo conlleva el uso excesivo de procedimientos almacenados en SQL en Odoo 18?",
+    "respuesta": "Aumentan el acoplamiento con la BBDD y exigen documentación y tests rigurosos.",
+    "opciones": [
+      "Borran automáticamente los campos creados con Odoo Studio.",
+      "Aumentan el acoplamiento con la BBDD y exigen documentación y tests rigurosos.",
+      "Hacen que el software sea incompatible con JasperSoft Studio."
+    ]
+  },
+  {
+    "pregunta": "¿Qué tipo de prueba es “muy importante en entornos de teletrabajo y movilidad”?",
+    "respuesta": "Pruebas de compatibilidad en distintos navegadores, sistemas operativos y dispositivos móviles.",
+    "opciones": [
+      "Pruebas de rendimiento con un solo usuario.",
+      "Pruebas de seguridad física del servidor.",
+      "Pruebas de compatibilidad en distintos navegadores, sistemas operativos y dispositivos móviles."
+    ]
+  },
+  {
+    "pregunta": "¿Qué debe incluir la documentación de una prueba para que sea útil en una auditoría?",
+    "respuesta": "Evidencias claras como capturas de pantalla, logs o métricas obtenidas.",
+    "opciones": [
+      "Solo la fecha de la prueba.",
+      "Una descripción oral de lo que sintió el técnico.",
+      "Evidencias claras como capturas de pantalla, logs o métricas obtenidas."
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es la sentencia de SQL utilizada para extraer información específica de la base de datos?",
+    "respuesta": "SELECT.",
+    "opciones": [
+      "SELECT.",
+      "UPDATE.",
+      "INSERT."
+    ]
+  },
+  {
+    "pregunta": "¿Cómo se integran las nuevas acciones y menús para que el usuario pueda navegar al nuevo módulo?",
+    "respuesta": "Mediante la definición de elementos <menuitem> en ficheros XML.",
+    "opciones": [
+      "Mediante la definición de elementos <menuitem> en ficheros XML.",
+      "Modificando el código fuente del navegador.",
+      "Enviando un correo electrónico al administrador del servidor."
+    ]
+  },
+  {
+    "pregunta": "En Odoo, ¿cuál es la tabla clave para contactos (clientes, proveedores)?",
+    "respuesta": "res_partner",
+    "opciones": [
+      "mail_thread",
+      "ir_attachment",
+      "res_partner"
+    ]
+  },
+  {
+    "pregunta": "¿Qué debe hacer un usuario en Odoo para exportar un listado de ventas a Excel o CSV?",
+    "respuesta": "Seleccionar las líneas y hacer clic en Exportar en el menú Acción",
+    "opciones": [
+      "Pulsar el botón Importar",
+      "Seleccionar las líneas y hacer clic en Exportar en el menú Acción",
+      "Abrir pgAdmin y ejecutar una consulta"
+    ]
+  },
+  {
+    "pregunta": "¿Qué información de log permite saber quién entra y sale de PostgreSQL?",
+    "respuesta": "log_connections y log_disconnections",
+    "opciones": [
+      "log_line_prefix",
+      "log_connections y log_disconnections",
+      "log_min_duration_statement"
+    ]
+  },
+  {
+    "pregunta": "En PostgreSQL, ¿qué parámetro registra consultas que superan un tiempo de ejecución determinado?",
+    "respuesta": "log_min_duration_statement",
+    "opciones": [
+      "log_directory",
+      "logging_collector",
+      "log_min_duration_statement"
+    ]
+  },
+  {
+    "pregunta": "¿Para qué sirven los informes periódicos de resultados comunicados a los equipos implicados?",
+    "respuesta": "Para facilitar la toma de decisiones basada en datos objetivos.",
+    "opciones": [
+      "Para facilitar la toma de decisiones basada en datos objetivos.",
+      "Para felicitar a los empleados por su cumpleaños.",
+      "Para reducir el presupuesto de mantenimiento del software."
+    ]
+  },
+  {
+    "pregunta": "¿Qué alternativa libre se menciona para el Business Intelligence (BI) además de JasperSoft?",
+    "respuesta": "Pentaho, que dispone de versión community.",
+    "opciones": [
+      "Google Drive.",
+      "Microsoft Excel básico.",
+      "Pentaho, que dispone de versión community."
+    ]
+  },
+  {
+    "pregunta": "¿Qué se busca al probar el acceso de un perfil de usuario restringido en el módulo de contabilidad?",
+    "respuesta": "Validar la seguridad del sistema y que el usuario solo acceda a la información permitida según su perfil.",
+    "opciones": [
+      "Validar la seguridad del sistema y que el usuario solo acceda a la información permitida según su perfil.",
+      "Comprobar si el usuario sabe sumar.",
+      "Aumentar deliberadamente el tiempo de respuesta del sistema."
+    ]
+  },
+  {
+    "pregunta": "¿Por qué se deben registrar las incidencias observadas durante el proceso de implantación?",
+    "respuesta": "Para facilitar la corrección de errores, la validación previa a producción y la trazabilidad del proceso.",
+    "opciones": [
+      "Para facilitar la corrección de errores, la validación previa a producción y la trazabilidad del proceso.",
+      "Para cobrar por cada error encontrado.",
+      "Para que el cliente vea que el programa tiene fallos."
+    ]
+  },
+  {
+    "pregunta": "¿Qué es un módulo dentro de Odoo?",
+    "respuesta": "Un componente que permite modificar y personalizar el comportamiento estándar de Odoo.",
+    "opciones": [
+      "Un componente que permite modificar y personalizar el comportamiento estándar de Odoo.",
+      "Una aplicación externa que no se conecta a la base de datos.",
+      "Un manual de usuario impreso."
+    ]
+  },
+  {
+    "pregunta": "¿Cómo se puede activar el modo desarrollador en Odoo para visualizar errores y herramientas técnicas?",
+    "respuesta": "Desde Ajustes → Activar modo desarrollador o añadiendo ?debug=1 en la URL.",
+    "opciones": [
+      "Tecleando CTRL+ALT+SUPR.",
+      "Desde Ajustes → Activar modo desarrollador o añadiendo ?debug=1 en la URL.",
+      "Desinstalando el programa y volviéndolo a instalar."
+    ]
+  },
+  {
+    "pregunta": "En Odoo, ¿cuál es la función del fichero manifest (manifest.py) en cuanto a documentación?",
+    "respuesta": "Define metadatos sobre el módulo, como su nombre, versión y dependencias.",
+    "opciones": [
+      "Contiene el código Python de la lógica.",
+      "Define metadatos sobre el módulo, como su nombre, versión y dependencias.",
+      "Almacena las contraseñas de los usuarios."
+    ]
+  },
+  {
+    "pregunta": "¿Qué ventaja técnica ofrece Python al ser un lenguaje con \"ligadura dinámica\"?",
+    "respuesta": "Es una característica propia de los lenguajes orientados a objetos que ofrece flexibilidad.",
+    "opciones": [
+      "Obliga a declarar el tipo de todas las variables al inicio del código.",
+      "Es una característica propia de los lenguajes orientados a objetos que ofrece flexibilidad.",
+      "Permite que el programa se ejecute solo en una plataforma específica."
+    ]
+  },
+  {
+    "pregunta": "¿Qué herramienta se utiliza en Visual Studio Code para instalar librerías de Python necesarias para Odoo?",
+    "respuesta": "pip.",
+    "opciones": [
+      "pip.",
+      "odoo-bin.",
+      "npm."
+    ]
+  },
+  {
+    "pregunta": "En una ventana de detalles de error de Odoo, ¿qué información es vital para identificar el origen del fallo?",
+    "respuesta": "El itinerario detallado de errores y el mensaje específico con su contexto.",
+    "opciones": [
+      "La hora de creación del módulo.",
+      "El nombre del desarrollador del sistema operativo.",
+      "El itinerario detallado de errores y el mensaje específico con su contexto."
+    ]
+  },
+  {
+    "pregunta": "¿Cómo se definen los derechos de acceso a los diferentes módulos o modelos en Odoo?",
+    "respuesta": "A partir del modelo ir.model.access, habitualmente definido en un fichero CSV.",
+    "opciones": [
+      "Modificando los permisos del sistema operativo.",
+      "A través de una contraseña única para cada empleado.",
+      "A partir del modelo ir.model.access, habitualmente definido en un fichero CSV."
+    ]
+  },
+  {
+    "pregunta": "¿Qué operadores lógicos booleanos permite Python para la manipulación de datos?",
+    "respuesta": "not, and y or.",
+    "opciones": [
+      "not, and y or.",
+      "TRUE, FALSE y NULL.",
+      "SUM, AVG y COUNT."
+    ]
+  },
+  {
+    "pregunta": "¿Qué modelo BI implica ETL hacia un repositorio reducido?",
+    "respuesta": "Data Mart",
+    "opciones": [
+      "Operacional Directo (ODS)",
+      "Data Warehouse",
+      "Data Mart"
+    ]
+  },
+  {
+    "pregunta": "¿Qué lenguaje se utiliza específicamente en PostgreSQL para crear estas funciones?",
+    "respuesta": "PL/pgSQL.",
+    "opciones": [
+      "C++.",
       "Java.",
-      "C++."
+      "PL/pgSQL."
     ]
   },
   {
-    "pregunta": "¿Qué es redundancia de datos?",
-    "respuesta": "Almacenamiento de la misma información en varios lugares.",
+    "pregunta": "En el diseño de un informe con JasperSoft Studio, ¿para qué sirve la creación de un “grupo” específico?",
+    "respuesta": "Para organizar la información (por ejemplo, agrupar productos por su proveedor).",
     "opciones": [
-      "Almacenamiento eficiente de datos.",
-      "Proceso de normalización de datos.",
-      "Almacenamiento de la misma información en varios lugares."
+      "Para organizar la información (por ejemplo, agrupar productos por su proveedor).",
+      "Para permitir que solo ciertos empleados vean el informe.",
+      "Para cambiar el idioma del texto automáticamente."
     ]
   },
   {
-    "pregunta": "¿Qué es un log?:",
-    "respuesta": "Historial o registro de las acciones, eventos o errores.",
+    "pregunta": "¿Cuál es el propósito de disponer de una documentación clara sobre procedimientos almacenados personalizados?",
+    "respuesta": "Que otros desarrolladores o administradores puedan mantenerlos en el futuro.",
     "opciones": [
-      "Historial o registro de las acciones, eventos o errores.",
-      "Un trozo de madera con bugs del sistema.",
-      "Un módulo de Odoo."
+      "Que otros desarrolladores o administradores puedan mantenerlos en el futuro.",
+      "Evitar que los directivos entiendan cómo funciona el sistema.",
+      "Poder vender el código a otras empresas de la competencia."
     ]
   },
   {
-    "pregunta": "En informe tipo filtrado, para poder realizar agrupaciones por parámetros deberemos:",
-    "respuesta": "Usar el desplegable agrupar por.",
+    "pregunta": "¿Cuál de los siguientes tipos de datos en Python es mutable?",
+    "respuesta": "Listas (list).",
     "opciones": [
-      "Usar el desplegable fecha.",
-      "Usar el desplegable filtros.",
-      "Usar el desplegable agrupar por."
+      "Cadenas (string).",
+      "Tuplas (tuple).",
+      "Listas (list)."
     ]
   },
   {
-    "pregunta": "¿Qué es la contabilidad integrada en un ERP?",
-    "respuesta": "Un módulo que unifica todas las operaciones contables de una empresa.",
+    "pregunta": "¿Qué tipo de dato en Python se utiliza específicamente para representar un valor nulo?",
+    "respuesta": "None.",
     "opciones": [
-      "Un módulo para editar videos.",
-      "Un módulo que unifica todas las operaciones contables de una empresa.",
-      "Un software para diseñar gráficos."
+      "Void.",
+      "None.",
+      "Null."
     ]
   },
   {
-    "pregunta": "¿Qué es la escalabilidad en un sistema ERP-CRM?",
-    "respuesta": "La capacidad del sistema para manejar un crecimiento en el volumen de trabajo o",
+    "pregunta": "¿Cómo se define un nuevo modelo en Odoo utilizando Python?",
+    "respuesta": "Mediante la creación de una clase que extiende de models.Model.",
     "opciones": [
-      "La capacidad del sistema para integrarse con otros sistemas.",
-      "La capacidad del sistema para manejar un crecimiento en el volumen de trabajo o usuarios.",
-      "La capacidad del sistema para generar informes detallados."
-    ]
-  },
-  {
-    "pregunta": "¿Qué es un almacén de datos en tiempo real?",
-    "respuesta": "Un almacén de datos que se actualiza continuamente a medida que los datos llegan.",
-    "opciones": [
-      "Un tipo de base de datos.",
-      "Un almacén de datos que se actualiza continuamente a medida que los datos llegan.",
-      "Un almacén de datos que se actualiza periódicamente."
-    ]
-  },
-  {
-    "pregunta": "¿Qué es la integración de sistemas en el contexto de ERP-CRM?",
-    "respuesta": "La conexión y comunicación entre diferentes sistemas y aplicaciones de software.",
-    "opciones": [
-      "La instalación de hardware adicional.",
-      "La creación de gráficos para informes.",
-      "La conexión y comunicación entre diferentes sistemas y aplicaciones de software."
-    ]
-  },
-  {
-    "pregunta": "¿Odoo permite crear nuevos módulos?:",
-    "respuesta": "Si, usando el comando odoo-bin.",
-    "opciones": [
-      "Si, descargando el proyecto completo desde GIT.",
-      "Si, usando el comando odoo-bin.",
-      "No, solo se pueden usar los oficiales."
-    ]
-  },
-  {
-    "pregunta": "¿Con que comando imprimimos líneas por consola en Python?:",
-    "respuesta": "print()",
-    "opciones": [
-      "print()",
-      "echo()",
-      "PrintLn()"
-    ]
-  },
-  {
-    "pregunta": "¿Cuándo utilizo Python cuál es el símbolo de carácter flotante dentro de la definición de un parámetro?:",
-    "respuesta": "%f.",
-    "opciones": [
-      "%g.",
-      "%i.",
-      "%f."
-    ]
-  },
-  {
-    "pregunta": "¿Qué tipo de lenguaje es Python?:",
-    "respuesta": "Interpretado.",
-    "opciones": [
-      "Virtualizado.",
-      "Interpretado.",
-      "Compilado."
-    ]
-  },
-  {
-    "pregunta": "¿Qué es un componente en el contexto del desarrollo de software?",
-    "respuesta": "Una unidad modular de código que tiene una función específica dentro de una",
-    "opciones": [
-      "Un tipo de base de datos.",
-      "Una pieza de hardware.",
-      "Una unidad modular de código que tiene una función específica dentro de una aplicación."
-    ]
-  },
-  {
-    "pregunta": "El plugin que se instala en Chrome para realizar un debug a través de navegador se denomina:",
-    "respuesta": "Odoo Debug.",
-    "opciones": [
-      "Odoo Chrome.",
-      "Debug Chrome.",
-      "Odoo Debug."
-    ]
-  },
-  {
-    "pregunta": "¿Cuál de los siguientes es un beneficio de utilizar componentes reutilizables en el desarrollo de software?",
-    "respuesta": "Mejora la eficiencia y reduce el tiempo de desarrollo.",
-    "opciones": [
-      "Mejora la eficiencia y reduce el tiempo de desarrollo.",
-      "Requiere más espacio en disco.",
-      "Aumenta el tiempo de desarrollo."
-    ]
-  },
-  {
-    "pregunta": "¿En qué consiste depurar un programa?:",
-    "respuesta": "Encontrar y corregir los problemas que pueda tener el código del mismo.",
-    "opciones": [
-      "Hacer más legible el código para otros programadores.",
-      "Redimensionar el proyecto eliminando código redundante.",
-      "Encontrar y corregir los problemas que pueda tener el código del mismo."
-    ]
-  },
-  {
-    "pregunta": "¿En qué directorio se almacena las diferentes vistas de un módulo?:",
-    "respuesta": "directorio raíz. views.",
-    "opciones": [
-      "models.",
-      "directorio raíz.",
-      "directorio raíz. views."
-    ]
-  },
-  {
-    "pregunta": "¿Para poder usar el menú técnico de Odoo que debemos hacer antes?:",
-    "respuesta": "Activar el modo desarrollador.",
-    "opciones": [
-      "Pausar la base de datos.",
-      "Activar el modo desarrollador.",
-      "Entrar como usuario root."
-    ]
-  },
-  {
-    "pregunta": "¿Qué módulo de Odoo permite crear y gestionar un sitio web?",
-    "respuesta": "Website.",
-    "opciones": [
-      "Website.",
-      "CRM.",
-      "Sales."
-    ]
-  },
-  {
-    "pregunta": "¿Cuál de las siguientes opciones describe mejor la funcionalidad de Odoo?",
-    "respuesta": "Un software para la gestión empresarial que integra diferentes aplicaciones.",
-    "opciones": [
-      "Un editor de texto.",
-      "Un navegador web.",
-      "Un software para la gestión empresarial que integra diferentes aplicaciones."
-    ]
-  },
-  {
-    "pregunta": "¿Con que programa podemos acceder a Odoo?:",
-    "respuesta": "Desde cualquier navegador web actual.",
-    "opciones": [
-      "Desde cualquier navegador web actual.",
-      "Desde la consola del sistema.",
-      "Desde el cliente oficial."
-    ]
-  },
-  {
-    "pregunta": "¿Qué es la normalización en bases de datos?",
-    "respuesta": "Proceso de estructurar una base de datos para reducir redundancias.",
-    "opciones": [
-      "Proceso de duplicar datos para mejorar el acceso.",
-      "Proceso de desfragmentar el disco duro.",
-      "Proceso de estructurar una base de datos para reducir redundancias."
-    ]
-  },
-  {
-    "pregunta": "¿Qué es la \"capacidad de respuesta\" en el contexto de ERP-CRM?",
-    "respuesta": "La capacidad del sistema para adaptarse a las necesidades cambiantes del negocio.",
-    "opciones": [
-      "La capacidad del sistema para adaptarse a las necesidades cambiantes del negocio.",
-      "La velocidad a la que el sistema puede procesar datos.",
-      "La capacidad del sistema para proporcionar soporte al cliente."
-    ]
-  },
-  {
-    "pregunta": "¿Qué tabla contiene información principal del producto con Odoo?:",
-    "respuesta": "product_template.",
-    "opciones": [
-      "res_parther.",
-      "product_supplierinfo.",
-      "product_template."
-    ]
-  },
-  {
-    "pregunta": "¿Qué es un \"workflow\" en un ERP?",
-    "respuesta": "Un proceso automatizado que gestiona las tareas y los procesos de negocio.",
-    "opciones": [
-      "Un proceso automatizado que gestiona las tareas y los procesos de negocio.",
-      "Un tipo de base de datos.",
-      "Un software para edición de videos."
-    ]
-  },
-  {
-    "pregunta": "¿Qué es un \"data lake\"?",
-    "respuesta": "Un repositorio centralizado que permite almacenar todos los datos estructurados y no",
-    "opciones": [
-      "Un tipo de base de datos.",
-      "Un repositorio centralizado que permite almacenar todos los datos estructurados y no estructurados a cualquier escala.",
-      "Un sistema de gestión de bases de datos."
-    ]
-  },
-  {
-    "pregunta": "¿Qué función tiene el módulo \"Timesheet\" en Odoo?",
-    "respuesta": "Registrar y gestionar el tiempo trabajado por los empleados.",
-    "opciones": [
-      "Registrar y gestionar el tiempo trabajado por los empleados.",
-      "Gestionar inventarios.",
-      "Realizar análisis financieros."
-    ]
-  },
-  {
-    "pregunta": "¿Qué es un Data Warehouse?",
-    "respuesta": "Un sistema para el almacenamiento y análisis de grandes volúmenes de datos.",
-    "opciones": [
-      "Un tipo de disco duro.",
-      "Un sistema para el almacenamiento y análisis de grandes volúmenes de datos.",
-      "Un almacén físico de datos."
-    ]
-  },
-  {
-    "pregunta": "El estado de desarrollo de necesidades de un software de gestión empresarial se puede considerar:",
-    "respuesta": "Un proceso vivo que evoluciona con las necesidades de la empresa.",
-    "opciones": [
-      "Un proceso vivo que evoluciona con las necesidades de la empresa.",
-      "Un proceso estático que finaliza con la implantación.",
-      "Un proceso standard que nos sirve para cualquier empresa y sector."
-    ]
-  },
-  {
-    "pregunta": "¿El menú técnico de Odoo está activo desde el principio?:",
-    "respuesta": "No",
-    "opciones": [
-      "Solo si se activa en la instalación",
-      "No",
-      "Si, siempre lo está"
+      "Escribiendo un fichero CSV con los nombres de las columnas.",
+      "Insertando directamente una tabla en PostgreSQL.",
+      "Mediante la creación de una clase que extiende de models.Model."
     ]
   }
 ]
